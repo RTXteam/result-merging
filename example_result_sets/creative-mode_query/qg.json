@@ -1,0 +1,28 @@
+{
+  "edges": {
+    "e0": {
+      "knowledge_type": "inferred",
+      "object": "n0",
+      "predicates": [
+        "biolink:treats"
+      ],
+      "subject": "n1"
+    }
+  },
+  "nodes": {
+    "n0": {
+      "categories": [
+        "biolink:Disease"
+      ],
+      "ids": [
+        "MONDO:0018956"
+      ],
+      "name": "Idiopathic bronchiectasis"
+    },
+    "n1": {
+      "categories": [
+        "biolink:ChemicalEntity"
+      ]
+    }
+  }
+}

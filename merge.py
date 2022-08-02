@@ -119,9 +119,9 @@ def merge_responses(query_dir_name: str):
 
 
 def main():
-    example_queries = ["treats_query", "insulin-atelectasis_2hop_query"]
-    for example_query in example_queries:
-        merge_responses(query_dir_name=example_query)
+    for example_query_dir_name in [dir_name for dir_name in os.listdir(f"{CURRENT_DIR}/example_result_sets")
+                                   if not dir_name.startswith(".")]:
+        merge_responses(query_dir_name=example_query_dir_name)
 
 
 if __name__ == "__main__":

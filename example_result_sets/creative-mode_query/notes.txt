@@ -1,0 +1,7 @@
+This query looks for chemical entities that treat Idiopathic bronchiectasis using 'creative mode'.
+Query taken from: https://github.com/NCATSTranslator/testing/issues/222
+
+Responses were downloaded from:
+https://arax.ncats.io/?r=ff949174-c6c8-4de9-81c7-0da9d030ee75
+
+Query was run in August 2022.

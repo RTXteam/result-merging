@@ -1,0 +1,12 @@
+{
+  "pre_merging": {
+    "results": 315,
+    "nodes": 284,
+    "edges": 422
+  },
+  "post_merging": {
+    "results": "308 (98%)",
+    "nodes": "275 (97%)",
+    "edges": "422 (100%)"
+  }
+}

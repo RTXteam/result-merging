@@ -1,0 +1,1190 @@
+{
+  "case_base_version": "2021-05-03 19:26:58+00:00",
+  "description": "Success. 5 results found",
+  "logs": [
+    {
+      "code": "",
+      "identifier": "",
+      "level": "DEBUG",
+      "message": "Executing 1 predicate searches.",
+      "timestamp": "2022-08-01T19:22:03"
+    },
+    {
+      "code": "",
+      "identifier": "Hop 1 of 1 - Source: n1, {'categories': ['biolink:ChemicalEntity']}, Predicate: e0, {'subject': 'n1', 'object': 'n0', 'predicates': ['biolink:treats'], 'knowledge_type': 'inferred', '__id': 'e0'}, Opposite: n0, {'ids': ['MONDO:0018956'], 'categories': ['biolink:Disease'], 'name': 'Idiopathic bronchiectasis'}",
+      "level": "DEBUG",
+      "message": "Identified 2 Case Problems: (Case ID, Similarity) '[('Q000123', 1.), ('Q000549', 0.99459459)]'",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": "Case Solution Manager",
+      "level": "DEBUG",
+      "message": "Matched 10 Case Solutions with deny list: ['']",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": "Hop 1 of 1 - Source: n1, {'categories': ['biolink:ChemicalEntity']}, Predicate: e0, {'subject': 'n1', 'object': 'n0', 'predicates': ['biolink:treats'], 'knowledge_type': 'inferred', '__id': 'e0'}, Opposite: n0, {'ids': ['MONDO:0018956'], 'categories': ['biolink:Disease'], 'name': 'Idiopathic bronchiectasis'}",
+      "level": "DEBUG",
+      "message": "Identified 10 Case Solutions (first 50): '[Case Solution: 672 Case ID: Q000123, Case Solution: 667 Case ID: Q000123, Case Solution: 668 Case ID: Q000123, Case Solution: 669 Case ID: Q000123, Case Solution: 670 Case ID: Q000123, Case Solution: 671 Case ID: Q000123, Case Solution: 673 Case ID: Q000123, Case Solution: 2240 Case ID: Q000549, Case Solution: 2241 Case ID: Q000549, Case Solution: 2242 Case ID: Q000549]...'",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": "",
+      "level": "DEBUG",
+      "message": "Fully ran 10 Case Solutions.",
+      "timestamp": "2022-08-01T19:22:11"
+    },
+    {
+      "code": "",
+      "identifier": 672,
+      "level": "DEBUG",
+      "message": "Executing Solution ID '672' for Case ID 'Q000123'",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 672,
+      "level": "DEBUG",
+      "message": "Case executed successfully. KP: BioThings SEMMEDDB API(https://api.bte.ncats.io/v1/smartapi/1d288b3a3caf75d541ffaae3aab386c8/query) Query: {'message': {'query_graph': {'edges': {'e0': {'subject': 'n1', 'predicates': ['biolink:treats'], 'object': 'n0'}}, 'nodes': {'n1': {'categories': ['biolink:ChemicalEntity']}, 'n0': {'categories': ['biolink:Disease'], 'ids': ['MONDO:0018956']}}}}, 'submitter': 'infores:explanatory-agent'} Found 5 edges: ['1bf5e9e955a4b86597f4862eb2195f49-uhxqpnqtpb', '58f033a046277114505e3bcd9f69cc32-txzuapxfma', '75bdf0af0d4c3e128e73dcf9d7da5b8a-dkdoenosro', 'ebad7784099c59b95144c05924d19a43-ysioollxie', 'f11a0959a174c071f6779b64dd7aa1e5-udgptketvy']",
+      "timestamp": "2022-08-01T19:22:11"
+    },
+    {
+      "code": "",
+      "identifier": 672,
+      "level": "DEBUG",
+      "message": "Sending request to Knowledge Provider https://api.bte.ncats.io/v1/smartapi/1d288b3a3caf75d541ffaae3aab386c8/query...",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 672,
+      "level": "DEBUG",
+      "message": "KP 200 response in 0:00:04.613734. Content size: 16675.",
+      "timestamp": "2022-08-01T19:22:11"
+    },
+    {
+      "code": "",
+      "identifier": 672,
+      "level": "DEBUG",
+      "message": "Executing explanation case 'X00014'.",
+      "timestamp": "2022-08-01T19:22:11"
+    },
+    {
+      "code": "",
+      "identifier": 667,
+      "level": "DEBUG",
+      "message": "Executing Solution ID '667' for Case ID 'Q000123'",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 667,
+      "level": "DEBUG",
+      "message": "Case executed successfully. KP: Automat Biolink(https://automat.renci.org/biolink/1.2/query) Query: {'message': {'query_graph': {'edges': {'e0': {'subject': 'n1', 'predicates': ['biolink:treats'], 'object': 'n0'}}, 'nodes': {'n1': {'categories': ['biolink:ChemicalEntity']}, 'n0': {'categories': ['biolink:Disease'], 'ids': ['MONDO:0018956']}}}}, 'submitter': 'infores:explanatory-agent'} Found 0 edges: []",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 667,
+      "level": "DEBUG",
+      "message": "Sending request to Knowledge Provider https://automat.renci.org/biolink/1.2/query...",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 667,
+      "level": "DEBUG",
+      "message": "KP 200 response in 0:00:00.144510. Content size: 479.",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "KPEmptyResponse",
+      "identifier": 667,
+      "level": "WARNING",
+      "message": "Knowledge Provider https://automat.renci.org/biolink/1.2/query returned an empty knowledge graph for message: {'message': {'query_graph': {'edges': {'e0': {'subject': 'n1', 'predicates': ['biolink:treats'], 'object': 'n0'}}, 'nodes': {'n1': {'categories': ['biolink:ChemicalEntity']}, 'n0': {'categories': ['biolink:Disease'], 'ids': ['MONDO:0018956']}}}}, 'submitter': 'infores:explanatory-agent'}",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 667,
+      "level": "DEBUG",
+      "message": "Executing explanation case 'X00014'.",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 668,
+      "level": "DEBUG",
+      "message": "Executing Solution ID '668' for Case ID 'Q000123'",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 668,
+      "level": "DEBUG",
+      "message": "Case executed successfully. KP: Automat Covidkop KG(https://automat.renci.org/covidkopkg/1.2/query) Query: {'message': {'query_graph': {'edges': {'e0': {'subject': 'n1', 'predicates': ['biolink:treats'], 'object': 'n0'}}, 'nodes': {'n1': {'categories': ['biolink:ChemicalEntity']}, 'n0': {'categories': ['biolink:Disease'], 'ids': ['MONDO:0018956']}}}}, 'submitter': 'infores:explanatory-agent'} Found 0 edges: []",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 668,
+      "level": "DEBUG",
+      "message": "Sending request to Knowledge Provider https://automat.renci.org/covidkopkg/1.2/query...",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 668,
+      "level": "DEBUG",
+      "message": "KP 200 response in 0:00:00.159870. Content size: 479.",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "KPEmptyResponse",
+      "identifier": 668,
+      "level": "WARNING",
+      "message": "Knowledge Provider https://automat.renci.org/covidkopkg/1.2/query returned an empty knowledge graph for message: {'message': {'query_graph': {'edges': {'e0': {'subject': 'n1', 'predicates': ['biolink:treats'], 'object': 'n0'}}, 'nodes': {'n1': {'categories': ['biolink:ChemicalEntity']}, 'n0': {'categories': ['biolink:Disease'], 'ids': ['MONDO:0018956']}}}}, 'submitter': 'infores:explanatory-agent'}",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 668,
+      "level": "DEBUG",
+      "message": "Executing explanation case 'X00014'.",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 669,
+      "level": "DEBUG",
+      "message": "Executing Solution ID '669' for Case ID 'Q000123'",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 669,
+      "level": "DEBUG",
+      "message": "Case executed successfully. KP: Automat DrugCentral(https://automat.renci.org/drugcentral/1.2/query) Query: {'message': {'query_graph': {'edges': {'e0': {'subject': 'n1', 'predicates': ['biolink:treats'], 'object': 'n0'}}, 'nodes': {'n1': {'categories': ['biolink:ChemicalEntity']}, 'n0': {'categories': ['biolink:Disease'], 'ids': ['MONDO:0018956']}}}}, 'submitter': 'infores:explanatory-agent'} Found 0 edges: []",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 669,
+      "level": "DEBUG",
+      "message": "Sending request to Knowledge Provider https://automat.renci.org/drugcentral/1.2/query...",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 669,
+      "level": "DEBUG",
+      "message": "KP 200 response in 0:00:00.121763. Content size: 479.",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "KPEmptyResponse",
+      "identifier": 669,
+      "level": "WARNING",
+      "message": "Knowledge Provider https://automat.renci.org/drugcentral/1.2/query returned an empty knowledge graph for message: {'message': {'query_graph': {'edges': {'e0': {'subject': 'n1', 'predicates': ['biolink:treats'], 'object': 'n0'}}, 'nodes': {'n1': {'categories': ['biolink:ChemicalEntity']}, 'n0': {'categories': ['biolink:Disease'], 'ids': ['MONDO:0018956']}}}}, 'submitter': 'infores:explanatory-agent'}",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 669,
+      "level": "DEBUG",
+      "message": "Executing explanation case 'X00014'.",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 670,
+      "level": "DEBUG",
+      "message": "Executing Solution ID '670' for Case ID 'Q000123'",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 670,
+      "level": "DEBUG",
+      "message": "Case executed successfully. KP: Automat Hetio(https://automat.renci.org/hetio/1.2/query) Query: {'message': {'query_graph': {'edges': {'e0': {'subject': 'n1', 'predicates': ['biolink:treats'], 'object': 'n0'}}, 'nodes': {'n1': {'categories': ['biolink:ChemicalEntity']}, 'n0': {'categories': ['biolink:Disease'], 'ids': ['MONDO:0018956']}}}}, 'submitter': 'infores:explanatory-agent'} Found 0 edges: []",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 670,
+      "level": "DEBUG",
+      "message": "Sending request to Knowledge Provider https://automat.renci.org/hetio/1.2/query...",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 670,
+      "level": "DEBUG",
+      "message": "KP 200 response in 0:00:00.140410. Content size: 479.",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "KPEmptyResponse",
+      "identifier": 670,
+      "level": "WARNING",
+      "message": "Knowledge Provider https://automat.renci.org/hetio/1.2/query returned an empty knowledge graph for message: {'message': {'query_graph': {'edges': {'e0': {'subject': 'n1', 'predicates': ['biolink:treats'], 'object': 'n0'}}, 'nodes': {'n1': {'categories': ['biolink:ChemicalEntity']}, 'n0': {'categories': ['biolink:Disease'], 'ids': ['MONDO:0018956']}}}}, 'submitter': 'infores:explanatory-agent'}",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 670,
+      "level": "DEBUG",
+      "message": "Executing explanation case 'X00014'.",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 671,
+      "level": "DEBUG",
+      "message": "Executing Solution ID '671' for Case ID 'Q000123'",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 671,
+      "level": "DEBUG",
+      "message": "Case executed successfully. KP: Automat Robokop KG(https://automat.renci.org/robokopkg/1.2/query) Query: {'message': {'query_graph': {'edges': {'e0': {'subject': 'n1', 'predicates': ['biolink:treats'], 'object': 'n0'}}, 'nodes': {'n1': {'categories': ['biolink:ChemicalEntity']}, 'n0': {'categories': ['biolink:Disease'], 'ids': ['MONDO:0018956']}}}}, 'submitter': 'infores:explanatory-agent'} Found 0 edges: []",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "",
+      "identifier": 671,
+      "level": "DEBUG",
+      "message": "Sending request to Knowledge Provider https://automat.renci.org/robokopkg/1.2/query...",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 671,
+      "level": "DEBUG",
+      "message": "KP 200 response in 0:00:00.136279. Content size: 479.",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "KPEmptyResponse",
+      "identifier": 671,
+      "level": "WARNING",
+      "message": "Knowledge Provider https://automat.renci.org/robokopkg/1.2/query returned an empty knowledge graph for message: {'message': {'query_graph': {'edges': {'e0': {'subject': 'n1', 'predicates': ['biolink:treats'], 'object': 'n0'}}, 'nodes': {'n1': {'categories': ['biolink:ChemicalEntity']}, 'n0': {'categories': ['biolink:Disease'], 'ids': ['MONDO:0018956']}}}}, 'submitter': 'infores:explanatory-agent'}",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "",
+      "identifier": 671,
+      "level": "DEBUG",
+      "message": "Executing explanation case 'X00014'.",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "Error",
+      "identifier": "MH71000",
+      "level": "ERROR",
+      "message": "Unhandled KeyError Exception: 'knowledge_graph'",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "",
+      "identifier": 673,
+      "level": "DEBUG",
+      "message": "Executing Solution ID '673' for Case ID 'Q000123'",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "Error",
+      "identifier": 673,
+      "level": "ERROR",
+      "message": "Unhandled KeyError Exception: 'knowledge_graph'",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "",
+      "identifier": 673,
+      "level": "DEBUG",
+      "message": "Sending request to Knowledge Provider https://spokekp.healthdatascience.cloud/api/v1.2/query...",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 673,
+      "level": "DEBUG",
+      "message": "KP 200 response in 0:00:00.310550. Content size: 161.",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "",
+      "identifier": 2240,
+      "level": "DEBUG",
+      "message": "Executing Solution ID '2240' for Case ID 'Q000549'",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 2240,
+      "level": "DEBUG",
+      "message": "Case executed successfully. KP: Automat CTD(https://automat.renci.org/ctd/1.2/query) Query: {'message': {'query_graph': {'edges': {'e0': {'subject': 'n1', 'predicates': ['biolink:ameliorates'], 'object': 'n0'}}, 'nodes': {'n1': {'categories': ['biolink:ChemicalEntity']}, 'n0': {'categories': ['biolink:Disease'], 'ids': ['MONDO:0018956']}}}}, 'submitter': 'infores:explanatory-agent'} Found 0 edges: []",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "",
+      "identifier": 2240,
+      "level": "DEBUG",
+      "message": "Sending request to Knowledge Provider https://automat.renci.org/ctd/1.2/query...",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 2240,
+      "level": "DEBUG",
+      "message": "KP 200 response in 0:00:00.131551. Content size: 484.",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "KPEmptyResponse",
+      "identifier": 2240,
+      "level": "WARNING",
+      "message": "Knowledge Provider https://automat.renci.org/ctd/1.2/query returned an empty knowledge graph for message: {'message': {'query_graph': {'edges': {'e0': {'subject': 'n1', 'predicates': ['biolink:ameliorates'], 'object': 'n0'}}, 'nodes': {'n1': {'categories': ['biolink:ChemicalEntity']}, 'n0': {'categories': ['biolink:Disease'], 'ids': ['MONDO:0018956']}}}}, 'submitter': 'infores:explanatory-agent'}",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "",
+      "identifier": 2240,
+      "level": "DEBUG",
+      "message": "Executing explanation case 'X00014'.",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "",
+      "identifier": 2241,
+      "level": "DEBUG",
+      "message": "Executing Solution ID '2241' for Case ID 'Q000549'",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 2241,
+      "level": "DEBUG",
+      "message": "Case executed successfully. KP: Automat Covidkop KG(https://automat.renci.org/covidkopkg/1.2/query) Query: {'message': {'query_graph': {'edges': {'e0': {'subject': 'n1', 'predicates': ['biolink:ameliorates'], 'object': 'n0'}}, 'nodes': {'n1': {'categories': ['biolink:ChemicalEntity']}, 'n0': {'categories': ['biolink:Disease'], 'ids': ['MONDO:0018956']}}}}, 'submitter': 'infores:explanatory-agent'} Found 0 edges: []",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "",
+      "identifier": 2241,
+      "level": "DEBUG",
+      "message": "Sending request to Knowledge Provider https://automat.renci.org/covidkopkg/1.2/query...",
+      "timestamp": "2022-08-01T19:22:06"
+    },
+    {
+      "code": "",
+      "identifier": 2241,
+      "level": "DEBUG",
+      "message": "KP 200 response in 0:00:00.141851. Content size: 484.",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "KPEmptyResponse",
+      "identifier": 2241,
+      "level": "WARNING",
+      "message": "Knowledge Provider https://automat.renci.org/covidkopkg/1.2/query returned an empty knowledge graph for message: {'message': {'query_graph': {'edges': {'e0': {'subject': 'n1', 'predicates': ['biolink:ameliorates'], 'object': 'n0'}}, 'nodes': {'n1': {'categories': ['biolink:ChemicalEntity']}, 'n0': {'categories': ['biolink:Disease'], 'ids': ['MONDO:0018956']}}}}, 'submitter': 'infores:explanatory-agent'}",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "",
+      "identifier": 2241,
+      "level": "DEBUG",
+      "message": "Executing explanation case 'X00014'.",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "",
+      "identifier": 2242,
+      "level": "DEBUG",
+      "message": "Executing Solution ID '2242' for Case ID 'Q000549'",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "",
+      "identifier": 2242,
+      "level": "DEBUG",
+      "message": "Case executed successfully. KP: Automat Robokop KG(https://automat.renci.org/robokopkg/1.2/query) Query: {'message': {'query_graph': {'edges': {'e0': {'subject': 'n1', 'predicates': ['biolink:ameliorates'], 'object': 'n0'}}, 'nodes': {'n1': {'categories': ['biolink:ChemicalEntity']}, 'n0': {'categories': ['biolink:Disease'], 'ids': ['MONDO:0018956']}}}}, 'submitter': 'infores:explanatory-agent'} Found 0 edges: []",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "",
+      "identifier": 2242,
+      "level": "DEBUG",
+      "message": "Sending request to Knowledge Provider https://automat.renci.org/robokopkg/1.2/query...",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "",
+      "identifier": 2242,
+      "level": "DEBUG",
+      "message": "KP 200 response in 0:00:00.152675. Content size: 484.",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "KPEmptyResponse",
+      "identifier": 2242,
+      "level": "WARNING",
+      "message": "Knowledge Provider https://automat.renci.org/robokopkg/1.2/query returned an empty knowledge graph for message: {'message': {'query_graph': {'edges': {'e0': {'subject': 'n1', 'predicates': ['biolink:ameliorates'], 'object': 'n0'}}, 'nodes': {'n1': {'categories': ['biolink:ChemicalEntity']}, 'n0': {'categories': ['biolink:Disease'], 'ids': ['MONDO:0018956']}}}}, 'submitter': 'infores:explanatory-agent'}",
+      "timestamp": "2022-08-01T19:22:07"
+    },
+    {
+      "code": "",
+      "identifier": 2242,
+      "level": "DEBUG",
+      "message": "Executing explanation case 'X00014'.",
+      "timestamp": "2022-08-01T19:22:07"
+    }
+  ],
+  "message": {
+    "knowledge_graph": {
+      "edges": {
+        "1bf5e9e955a4b86597f4862eb2195f49-uhxqpnqtpb": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:8182010"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:original_object",
+              "value": "C0339985"
+            },
+            {
+              "attribute_type_id": "biolink:original_predicate",
+              "value": "TREATS"
+            },
+            {
+              "attribute_type_id": "biolink:original_subject",
+              "value": "C0055856"
+            },
+            {
+              "attribute_type_id": "original_object_name",
+              "value": "Idiopathic bronchiectasis"
+            },
+            {
+              "attribute_type_id": "original_subject_name",
+              "value": "Clarithromycin"
+            },
+            {
+              "attribute_source": "infores:explanatory-agent",
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "description": "The eXplanatory Autonomous Relay Agent (xARA) utilizes a case-based reasoning approach to execute ARS queries by obtaining results from multiple knowledge providers (KPs) and utilizes various methods such as natural language understanding models that traverse biomedical literature to score and explain its scores.",
+              "value": "infores:explanatory-agent",
+              "value_type_id": "biolink:InformationResource",
+              "value_url": "https://explanatory-agent.azurewebsites.net/v1.2"
+            }
+          ],
+          "object": "MONDO:0018956",
+          "predicate": "biolink:treats",
+          "subject": "PUBCHEM.COMPOUND:84029"
+        },
+        "58f033a046277114505e3bcd9f69cc32-txzuapxfma": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:20184817"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:original_object",
+              "value": "C0339985"
+            },
+            {
+              "attribute_type_id": "biolink:original_predicate",
+              "value": "TREATS"
+            },
+            {
+              "attribute_type_id": "biolink:original_subject",
+              "value": "C1135662"
+            },
+            {
+              "attribute_type_id": "original_object_name",
+              "value": "Idiopathic bronchiectasis"
+            },
+            {
+              "attribute_type_id": "original_subject_name",
+              "value": "recombinant human DNase"
+            },
+            {
+              "attribute_source": "infores:explanatory-agent",
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "description": "The eXplanatory Autonomous Relay Agent (xARA) utilizes a case-based reasoning approach to execute ARS queries by obtaining results from multiple knowledge providers (KPs) and utilizes various methods such as natural language understanding models that traverse biomedical literature to score and explain its scores.",
+              "value": "infores:explanatory-agent",
+              "value_type_id": "biolink:InformationResource",
+              "value_url": "https://explanatory-agent.azurewebsites.net/v1.2"
+            }
+          ],
+          "object": "MONDO:0018956",
+          "predicate": "biolink:treats",
+          "subject": "UMLS:C0251564"
+        },
+        "75bdf0af0d4c3e128e73dcf9d7da5b8a-dkdoenosro": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:15919012"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:original_object",
+              "value": "C0339985"
+            },
+            {
+              "attribute_type_id": "biolink:original_predicate",
+              "value": "TREATS"
+            },
+            {
+              "attribute_type_id": "biolink:original_subject",
+              "value": "C0052796"
+            },
+            {
+              "attribute_type_id": "original_object_name",
+              "value": "Idiopathic bronchiectasis"
+            },
+            {
+              "attribute_type_id": "original_subject_name",
+              "value": "Azithromycin"
+            },
+            {
+              "attribute_source": "infores:explanatory-agent",
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "description": "The eXplanatory Autonomous Relay Agent (xARA) utilizes a case-based reasoning approach to execute ARS queries by obtaining results from multiple knowledge providers (KPs) and utilizes various methods such as natural language understanding models that traverse biomedical literature to score and explain its scores.",
+              "value": "infores:explanatory-agent",
+              "value_type_id": "biolink:InformationResource",
+              "value_url": "https://explanatory-agent.azurewebsites.net/v1.2"
+            }
+          ],
+          "object": "MONDO:0018956",
+          "predicate": "biolink:treats",
+          "subject": "PUBCHEM.COMPOUND:447043"
+        },
+        "ebad7784099c59b95144c05924d19a43-ysioollxie": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:29518849"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:original_object",
+              "value": "C0339985"
+            },
+            {
+              "attribute_type_id": "biolink:original_predicate",
+              "value": "TREATS"
+            },
+            {
+              "attribute_type_id": "biolink:original_subject",
+              "value": "C0003240"
+            },
+            {
+              "attribute_type_id": "original_object_name",
+              "value": "Idiopathic bronchiectasis"
+            },
+            {
+              "attribute_type_id": "original_subject_name",
+              "value": "Macrolide Antibiotics"
+            },
+            {
+              "attribute_source": "infores:explanatory-agent",
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "description": "The eXplanatory Autonomous Relay Agent (xARA) utilizes a case-based reasoning approach to execute ARS queries by obtaining results from multiple knowledge providers (KPs) and utilizes various methods such as natural language understanding models that traverse biomedical literature to score and explain its scores.",
+              "value": "infores:explanatory-agent",
+              "value_type_id": "biolink:InformationResource",
+              "value_url": "https://explanatory-agent.azurewebsites.net/v1.2"
+            }
+          ],
+          "object": "MONDO:0018956",
+          "predicate": "biolink:treats",
+          "subject": "UMLS:C0003240"
+        },
+        "f11a0959a174c071f6779b64dd7aa1e5-udgptketvy": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:14985560"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:original_object",
+              "value": "C0339985"
+            },
+            {
+              "attribute_type_id": "biolink:original_predicate",
+              "value": "TREATS"
+            },
+            {
+              "attribute_type_id": "biolink:original_subject",
+              "value": "C0003232"
+            },
+            {
+              "attribute_type_id": "original_object_name",
+              "value": "Idiopathic bronchiectasis"
+            },
+            {
+              "attribute_type_id": "original_subject_name",
+              "value": "Antibiotics"
+            },
+            {
+              "attribute_source": "infores:explanatory-agent",
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "description": "The eXplanatory Autonomous Relay Agent (xARA) utilizes a case-based reasoning approach to execute ARS queries by obtaining results from multiple knowledge providers (KPs) and utilizes various methods such as natural language understanding models that traverse biomedical literature to score and explain its scores.",
+              "value": "infores:explanatory-agent",
+              "value_type_id": "biolink:InformationResource",
+              "value_url": "https://explanatory-agent.azurewebsites.net/v1.2"
+            }
+          ],
+          "object": "MONDO:0018956",
+          "predicate": "biolink:treats",
+          "subject": "UMLS:C0003232"
+        }
+      },
+      "nodes": {
+        "MONDO:0018956": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "MONDO:0018956",
+                "ORPHANET:60033",
+                "UMLS:C0339985",
+                "SNOMEDCT:233629001"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "idiopathic bronchiectasis",
+                "Idiopathic bronchiectasis"
+              ]
+            }
+          ],
+          "categories": [
+            "biolink:Disease"
+          ],
+          "name": "idiopathic bronchiectasis"
+        },
+        "PUBCHEM.COMPOUND:447043": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "PUBCHEM.COMPOUND:447043",
+                "CHEMBL.COMPOUND:CHEMBL529",
+                "UNII:J2KLZ20U1M",
+                "CHEBI:2955",
+                "DRUGBANK:DB00207",
+                "MESH:D017963",
+                "CAS:83905-01-5",
+                "DrugCentral:276",
+                "GTOPDB:6510",
+                "HMDB:HMDB0014352",
+                "INCHIKEY:MQTOSJVFKKJCRP-BICOPXKESA-N",
+                "UMLS:C0052796",
+                "UMLS:C0678143",
+                "UMLS:C0795582",
+                "UMLS:C0886592"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "Azithromycin",
+                "AZITHROMYCIN",
+                "AZITHROMYCIN ANHYDROUS",
+                "azithromycin",
+                "Zithromax",
+                "Azithromycin Dihydrate",
+                "Azithromycin Monohydrate"
+              ]
+            }
+          ],
+          "categories": [
+            "biolink:SmallMolecule"
+          ],
+          "name": "Azithromycin"
+        },
+        "PUBCHEM.COMPOUND:84029": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "PUBCHEM.COMPOUND:84029",
+                "CHEMBL.COMPOUND:CHEMBL1741",
+                "UNII:H1250JIK0A",
+                "CHEBI:3732",
+                "DRUGBANK:DB01211",
+                "MESH:C040934",
+                "MESH:D017291",
+                "CAS:81103-11-9",
+                "DrugCentral:668",
+                "GTOPDB:10903",
+                "HMDB:HMDB0015342",
+                "KEGG.COMPOUND:C06912",
+                "INCHIKEY:AGOYDEPGAOXOCK-KCBOHYOISA-N",
+                "UMLS:C0055856",
+                "UMLS:C0620902"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "Clarithromycin",
+                "CLARITHROMYCIN",
+                "clarithromycin",
+                "6-O-methylerythromycin A"
+              ]
+            }
+          ],
+          "categories": [
+            "biolink:SmallMolecule"
+          ],
+          "name": "Clarithromycin"
+        },
+        "UMLS:C0003232": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "UMLS:C0003232"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "Antibiotics"
+              ]
+            }
+          ],
+          "categories": [
+            "biolink:ChemicalEntity"
+          ],
+          "name": "Antibiotics"
+        },
+        "UMLS:C0003240": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "UMLS:C0003240"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "Macrolide Antibiotics"
+              ]
+            }
+          ],
+          "categories": [
+            "biolink:ChemicalEntity"
+          ],
+          "name": "Macrolide Antibiotics"
+        },
+        "UMLS:C0251564": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "UMLS:C0251564",
+                "UMLS:C1135662"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "Pulmozyme",
+                "Dornase Alfa"
+              ]
+            }
+          ],
+          "categories": [
+            "biolink:Protein"
+          ],
+          "name": "Pulmozyme"
+        }
+      }
+    },
+    "query_graph": {
+      "edges": {
+        "e0": {
+          "knowledge_type": "inferred",
+          "object": "n0",
+          "predicates": [
+            "biolink:treats"
+          ],
+          "subject": "n1"
+        }
+      },
+      "nodes": {
+        "n0": {
+          "categories": [
+            "biolink:Disease"
+          ],
+          "ids": [
+            "MONDO:0018956"
+          ],
+          "name": "Idiopathic bronchiectasis"
+        },
+        "n1": {
+          "categories": [
+            "biolink:ChemicalEntity"
+          ]
+        }
+      }
+    },
+    "results": [
+      {
+        "attributes": [
+          {
+            "attribute_type_id": "biolink:description",
+            "description": "Describes to user the Rationale for explaining the ranking",
+            "original_attribute_name": "Explanation Rationale",
+            "value": "Score assigned was zero because no evidence, provenance, or confidence information was available to compute a score."
+          },
+          {
+            "attribute_type_id": "biolink:has_evidence",
+            "description": "Describes to user the reason this specific edge receives a score w.r.t Rationale.",
+            "original_attribute_name": "Explanation Text",
+            "value": "No explanation as this edge is not scored"
+          }
+        ],
+        "edge_bindings": {
+          "e0": [
+            {
+              "id": "1bf5e9e955a4b86597f4862eb2195f49-uhxqpnqtpb"
+            }
+          ]
+        },
+        "node_bindings": {
+          "n0": [
+            {
+              "id": "MONDO:0018956"
+            }
+          ],
+          "n1": [
+            {
+              "id": "PUBCHEM.COMPOUND:84029"
+            }
+          ]
+        },
+        "reasoner_id": "Explanatory Agent",
+        "score": 0.0001
+      },
+      {
+        "attributes": [
+          {
+            "attribute_type_id": "biolink:description",
+            "description": "Describes to user the Rationale for explaining the ranking",
+            "original_attribute_name": "Explanation Rationale",
+            "value": "Score assigned was zero because no evidence, provenance, or confidence information was available to compute a score."
+          },
+          {
+            "attribute_type_id": "biolink:has_evidence",
+            "description": "Describes to user the reason this specific edge receives a score w.r.t Rationale.",
+            "original_attribute_name": "Explanation Text",
+            "value": "No explanation as this edge is not scored"
+          }
+        ],
+        "edge_bindings": {
+          "e0": [
+            {
+              "id": "58f033a046277114505e3bcd9f69cc32-txzuapxfma"
+            }
+          ]
+        },
+        "node_bindings": {
+          "n0": [
+            {
+              "id": "MONDO:0018956"
+            }
+          ],
+          "n1": [
+            {
+              "id": "UMLS:C0251564"
+            }
+          ]
+        },
+        "reasoner_id": "Explanatory Agent",
+        "score": 0.0001
+      },
+      {
+        "attributes": [
+          {
+            "attribute_type_id": "biolink:description",
+            "description": "Describes to user the Rationale for explaining the ranking",
+            "original_attribute_name": "Explanation Rationale",
+            "value": "Score assigned was zero because no evidence, provenance, or confidence information was available to compute a score."
+          },
+          {
+            "attribute_type_id": "biolink:has_evidence",
+            "description": "Describes to user the reason this specific edge receives a score w.r.t Rationale.",
+            "original_attribute_name": "Explanation Text",
+            "value": "No explanation as this edge is not scored"
+          }
+        ],
+        "edge_bindings": {
+          "e0": [
+            {
+              "id": "75bdf0af0d4c3e128e73dcf9d7da5b8a-dkdoenosro"
+            }
+          ]
+        },
+        "node_bindings": {
+          "n0": [
+            {
+              "id": "MONDO:0018956"
+            }
+          ],
+          "n1": [
+            {
+              "id": "PUBCHEM.COMPOUND:447043"
+            }
+          ]
+        },
+        "reasoner_id": "Explanatory Agent",
+        "score": 0.0001
+      },
+      {
+        "attributes": [
+          {
+            "attribute_type_id": "biolink:description",
+            "description": "Describes to user the Rationale for explaining the ranking",
+            "original_attribute_name": "Explanation Rationale",
+            "value": "Score assigned was zero because no evidence, provenance, or confidence information was available to compute a score."
+          },
+          {
+            "attribute_type_id": "biolink:has_evidence",
+            "description": "Describes to user the reason this specific edge receives a score w.r.t Rationale.",
+            "original_attribute_name": "Explanation Text",
+            "value": "No explanation as this edge is not scored"
+          }
+        ],
+        "edge_bindings": {
+          "e0": [
+            {
+              "id": "ebad7784099c59b95144c05924d19a43-ysioollxie"
+            }
+          ]
+        },
+        "node_bindings": {
+          "n0": [
+            {
+              "id": "MONDO:0018956"
+            }
+          ],
+          "n1": [
+            {
+              "id": "UMLS:C0003240"
+            }
+          ]
+        },
+        "reasoner_id": "Explanatory Agent",
+        "score": 0.0001
+      },
+      {
+        "attributes": [
+          {
+            "attribute_type_id": "biolink:description",
+            "description": "Describes to user the Rationale for explaining the ranking",
+            "original_attribute_name": "Explanation Rationale",
+            "value": "Score assigned was zero because no evidence, provenance, or confidence information was available to compute a score."
+          },
+          {
+            "attribute_type_id": "biolink:has_evidence",
+            "description": "Describes to user the reason this specific edge receives a score w.r.t Rationale.",
+            "original_attribute_name": "Explanation Text",
+            "value": "No explanation as this edge is not scored"
+          }
+        ],
+        "edge_bindings": {
+          "e0": [
+            {
+              "id": "f11a0959a174c071f6779b64dd7aa1e5-udgptketvy"
+            }
+          ]
+        },
+        "node_bindings": {
+          "n0": [
+            {
+              "id": "MONDO:0018956"
+            }
+          ],
+          "n1": [
+            {
+              "id": "UMLS:C0003232"
+            }
+          ]
+        },
+        "reasoner_id": "Explanatory Agent",
+        "score": 0.0001
+      }
+    ]
+  },
+  "status": "Success",
+  "validation_result": {
+    "message": "",
+    "n_edges": 5,
+    "n_nodes": 6,
+    "provenance_summary": {
+      "n_sources": 4,
+      "predicate_counts": {
+        "biolink:treats": 5
+      },
+      "provenance_counts": {
+        "biolink:treats --> biolink:aggregator_knowledge_source = ['infores:biothings-explorer']": [
+          "biolink:treats",
+          "biolink:aggregator_knowledge_source",
+          [
+            "infores:biothings-explorer"
+          ],
+          5
+        ],
+        "biolink:treats --> biolink:aggregator_knowledge_source = ['infores:biothings-semmeddb']": [
+          "biolink:treats",
+          "biolink:aggregator_knowledge_source",
+          [
+            "infores:biothings-semmeddb"
+          ],
+          5
+        ],
+        "biolink:treats --> biolink:aggregator_knowledge_source = infores:explanatory-agent": [
+          "biolink:treats",
+          "biolink:aggregator_knowledge_source",
+          "infores:explanatory-agent",
+          5
+        ],
+        "biolink:treats --> biolink:primary_knowledge_source = ['infores:semmeddb']": [
+          "biolink:treats",
+          "biolink:primary_knowledge_source",
+          [
+            "infores:semmeddb"
+          ],
+          5
+        ]
+      }
+    },
+    "size": "49 kB",
+    "status": "PASS",
+    "version": "1.2.0"
+  }
+}

@@ -1,0 +1,1745 @@
+{
+  "logs": [
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "job status available at: http://bte.transltr.io/v1/check_query_status/d00CCd5O58",
+      "timestamp": "2022-08-01T19:23:57.080Z"
+    },
+    {
+      "code": null,
+      "level": "WARNING",
+      "message": "The following APIs were unavailable at the time of execution: Knowledge Collaboratory API, SPOKE KP for TRAPI 1.3, COHD TRAPI 1.3 - DEVELOPMENT, MolePro, Service Provider TRAPI, Automat Covidkopkg (ITRB PROD) (trapi v-1.2.0), COHD TRAPI 1.2, Automat MyChem (ITRB PROD) (trapi v-1.2.0), Genetics KP, RTX KG2, RTX KG2",
+      "timestamp": "2022-08-01T19:21:54.645Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "BTE identified 2 qNodes from your query graph",
+      "timestamp": "2022-08-01T19:21:54.750Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "BTE identified 1 qEdges from your query graph",
+      "timestamp": "2022-08-01T19:21:54.751Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "Query proceeding in Inferred Mode.",
+      "timestamp": "2022-08-01T19:21:54.751Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "Got 4 inferred query templates.",
+      "timestamp": "2022-08-01T19:21:54.756Z"
+    },
+    {
+      "code": null,
+      "level": "WARNING",
+      "message": "[Template-0]: The following APIs were unavailable at the time of execution: Knowledge Collaboratory API, SPOKE KP for TRAPI 1.3, COHD TRAPI 1.3 - DEVELOPMENT, MolePro, Service Provider TRAPI, Automat Covidkopkg (ITRB PROD) (trapi v-1.2.0), COHD TRAPI 1.2, Automat MyChem (ITRB PROD) (trapi v-1.2.0), Genetics KP, RTX KG2, RTX KG2",
+      "timestamp": "2022-08-01T19:21:55.155Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: BTE identified 3 qNodes from your query graph",
+      "timestamp": "2022-08-01T19:21:55.239Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: BTE identified 2 qEdges from your query graph",
+      "timestamp": "2022-08-01T19:21:55.239Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "[Template-0]: Executing eA: n0 --> nA",
+      "timestamp": "2022-08-01T19:21:55.442Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: REDIS cache is  enabled.",
+      "timestamp": "2022-08-01T19:21:55.501Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: BTE is trying to find metaKG edges (smartAPI registry, x-bte annotation) connecting from Disease,PhenotypicFeature,BehavioralFeature,ClinicalFinding,DiseaseOrPhenotypicFeature to Disease,PhenotypicFeature,BehavioralFeature,ClinicalFinding,DiseaseOrPhenotypicFeature with predicate superclass_of",
+      "timestamp": "2022-08-01T19:21:55.505Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: BTE found 38 metaKG edges corresponding to eA. These metaKG edges comes from 12 unique APIs. They are MyDisease.info API,Ontology Lookup Service API,Human Phenotype Ontology API,Automat Pharos (trapi v-1.2.0),Automat CTD (trapi v-1.2.0),Automat DrugCentral (trapi v-1.2.0),Automat Biolink (trapi v-1.2.0),Automat HMDB (trapi v-1.2.0),Automat Hetio (trapi v-1.2.0),Automat Ontological Hierarchy (trapi v-1.2.0),Automat Cord19 (trapi v-1.2.0),Automat Uberongraph (trapi v-1.2.0)",
+      "timestamp": "2022-08-01T19:21:55.591Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: BTE found 36 metaKG for this batch.",
+      "timestamp": "2022-08-01T19:21:55.594Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Resolving ID feature is turned on",
+      "timestamp": "2022-08-01T19:21:55.594Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Number of API Edges received is 36",
+      "timestamp": "2022-08-01T19:21:55.594Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/pharos/1.2 (1 ID): PhenotypicFeature > superclass_of > Disease (obtained 0 records, took 117ms)",
+      "timestamp": "2022-08-01T19:21:55.715Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/hmdb/1.2 (1 ID): Disease > superclass_of > PhenotypicFeature (obtained 0 records, took 105ms)",
+      "timestamp": "2022-08-01T19:21:55.718Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/hmdb/1.2 (1 ID): Disease > superclass_of > Disease (obtained 0 records, took 107ms)",
+      "timestamp": "2022-08-01T19:21:55.719Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/drugcentral/1.2 (1 ID): PhenotypicFeature > superclass_of > Disease (obtained 0 records, took 119ms)",
+      "timestamp": "2022-08-01T19:21:55.722Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/hmdb/1.2 (1 ID): PhenotypicFeature > superclass_of > Disease (obtained 0 records, took 110ms)",
+      "timestamp": "2022-08-01T19:21:55.722Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/pharos/1.2 (1 ID): Disease > superclass_of > PhenotypicFeature (obtained 0 records, took 130ms)",
+      "timestamp": "2022-08-01T19:21:55.728Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/ontological-hierarchy/1.2 (1 ID): Disease > superclass_of > PhenotypicFeature (obtained 0 records, took 114ms)",
+      "timestamp": "2022-08-01T19:21:55.730Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/drugcentral/1.2 (1 ID): Disease > superclass_of > PhenotypicFeature (obtained 0 records, took 134ms)",
+      "timestamp": "2022-08-01T19:21:55.737Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/pharos/1.2 (1 ID): Disease > superclass_of > Disease (obtained 7 records, took 146ms)",
+      "timestamp": "2022-08-01T19:21:55.743Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/drugcentral/1.2 (1 ID): Disease > superclass_of > Disease (obtained 0 records, took 142ms)",
+      "timestamp": "2022-08-01T19:21:55.744Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/ontological-hierarchy/1.2 (1 ID): PhenotypicFeature > superclass_of > PhenotypicFeature (obtained 0 records, took 129ms)",
+      "timestamp": "2022-08-01T19:21:55.745Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/ontological-hierarchy/1.2 (1 ID): Disease > superclass_of > Disease (obtained 7 records, took 131ms)",
+      "timestamp": "2022-08-01T19:21:55.749Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/biolink/1.2 (1 ID): Disease > superclass_of > PhenotypicFeature (obtained 0 records, took 145ms)",
+      "timestamp": "2022-08-01T19:21:55.751Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/ctd/1.2 (1 ID): Disease > superclass_of > PhenotypicFeature (obtained 0 records, took 151ms)",
+      "timestamp": "2022-08-01T19:21:55.752Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/uberongraph/1.2 (1 ID): Disease > superclass_of > Disease (obtained 7 records, took 134ms)",
+      "timestamp": "2022-08-01T19:21:55.755Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/ctd/1.2 (1 ID): Disease > superclass_of > Disease (obtained 0 records, took 158ms)",
+      "timestamp": "2022-08-01T19:21:55.757Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/biolink/1.2 (1 ID): Disease > superclass_of > Disease (obtained 7 records, took 154ms)",
+      "timestamp": "2022-08-01T19:21:55.759Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/ctd/1.2 (1 ID): PhenotypicFeature > superclass_of > Disease (obtained 0 records, took 163ms)",
+      "timestamp": "2022-08-01T19:21:55.763Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/biolink/1.2 (1 ID): PhenotypicFeature > superclass_of > Disease (obtained 0 records, took 159ms)",
+      "timestamp": "2022-08-01T19:21:55.764Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/uberongraph/1.2 (1 ID): PhenotypicFeature > superclass_of > Disease (obtained 0 records, took 143ms)",
+      "timestamp": "2022-08-01T19:21:55.764Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/uberongraph/1.2 (1 ID): Disease > superclass_of > PhenotypicFeature (obtained 0 records, took 142ms)",
+      "timestamp": "2022-08-01T19:21:55.765Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/cord19/1.2 (1 ID): Disease > superclass_of > PhenotypicFeature (obtained 0 records, took 164ms)",
+      "timestamp": "2022-08-01T19:21:55.783Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/cord19/1.2 (1 ID): PhenotypicFeature > superclass_of > PhenotypicFeature (obtained 0 records, took 165ms)",
+      "timestamp": "2022-08-01T19:21:55.784Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/cord19/1.2 (1 ID): PhenotypicFeature > superclass_of > Disease (obtained 0 records, took 164ms)",
+      "timestamp": "2022-08-01T19:21:55.784Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/hetio/1.2 (1 ID): PhenotypicFeature > superclass_of > Disease (obtained 0 records, took 264ms)",
+      "timestamp": "2022-08-01T19:21:55.879Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/hetio/1.2 (1 ID): Disease > superclass_of > PhenotypicFeature (obtained 0 records, took 343ms)",
+      "timestamp": "2022-08-01T19:21:55.958Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/hetio/1.2 (1 ID): Disease > superclass_of > Disease (obtained 0 records, took 349ms)",
+      "timestamp": "2022-08-01T19:21:55.963Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST http://mydisease.info/v1 (1 ID): Disease > superclass_of > Disease (obtained 3 records, took 376ms)",
+      "timestamp": "2022-08-01T19:21:55.972Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/pharos/1.2 (1 ID): PhenotypicFeature > superclass_of > PhenotypicFeature (obtained 0 records, took 86ms)",
+      "timestamp": "2022-08-01T19:21:56.058Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/drugcentral/1.2 (1 ID): PhenotypicFeature > superclass_of > PhenotypicFeature (obtained 0 records, took 85ms)",
+      "timestamp": "2022-08-01T19:21:56.059Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/ontological-hierarchy/1.2 (1 ID): PhenotypicFeature > superclass_of > Disease (obtained 0 records, took 89ms)",
+      "timestamp": "2022-08-01T19:21:56.065Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/uberongraph/1.2 (1 ID): PhenotypicFeature > superclass_of > PhenotypicFeature (obtained 0 records, took 97ms)",
+      "timestamp": "2022-08-01T19:21:56.075Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/ctd/1.2 (1 ID): PhenotypicFeature > superclass_of > PhenotypicFeature (obtained 0 records, took 104ms)",
+      "timestamp": "2022-08-01T19:21:56.077Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/biolink/1.2 (1 ID): PhenotypicFeature > superclass_of > PhenotypicFeature (obtained 0 records, took 113ms)",
+      "timestamp": "2022-08-01T19:21:56.088Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/cord19/1.2 (1 ID): Disease > superclass_of > Disease (obtained 0 records, took 114ms)",
+      "timestamp": "2022-08-01T19:21:56.091Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/hetio/1.2 (1 ID): PhenotypicFeature > superclass_of > PhenotypicFeature (obtained 0 records, took 186ms)",
+      "timestamp": "2022-08-01T19:21:56.162Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Total number of records returned for this query is 31",
+      "timestamp": "2022-08-01T19:21:56.162Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: qEdge queries complete in 567ms",
+      "timestamp": "2022-08-01T19:21:56.339Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "[Template-0]: eA execution: 36 queries (36 success/0 fail) and (0) cached qEdges return (19) records",
+      "timestamp": "2022-08-01T19:21:56.358Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "[Template-0]: Executing eB: nA --> n1",
+      "timestamp": "2022-08-01T19:21:56.362Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: REDIS cache is  enabled.",
+      "timestamp": "2022-08-01T19:21:56.411Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: BTE is trying to find metaKG edges (smartAPI registry, x-bte annotation) connecting from Disease,PhenotypicFeature,BehavioralFeature,ClinicalFinding,DiseaseOrPhenotypicFeature to MolecularEntity,SmallMolecule,NucleicAcidEntity,Exon,Transcript,RnaProduct,RnaProductIsoform,NoncodingRnaProduct,MicroRna,SiRna,CodingSequence,ChemicalMixture,MolecularMixture,Drug,ComplexMolecularMixture,ProcessedMaterial,Food,EnvironmentalFoodContaminant,FoodAdditive,Nutrient,Macronutrient,Micronutrient,Vitamin,ChemicalEntity with predicate approved_for_treatment_by,treated_by",
+      "timestamp": "2022-08-01T19:21:56.415Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: BTE found 50 metaKG edges corresponding to eB. These metaKG edges comes from 7 unique APIs. They are MyChem.info API,BioThings SEMMEDDB API,BioThings iDISK API,Text Mining Targeted Association API,Automat DrugCentral (trapi v-1.2.0),Automat Biolink (trapi v-1.2.0),Automat Hetio (trapi v-1.2.0)",
+      "timestamp": "2022-08-01T19:21:56.493Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: BTE found 47 metaKG for this batch.",
+      "timestamp": "2022-08-01T19:21:56.496Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Resolving ID feature is turned on",
+      "timestamp": "2022-08-01T19:21:56.496Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Number of API Edges received is 47",
+      "timestamp": "2022-08-01T19:21:56.496Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/drugcentral/1.2 (4 IDs): Disease > treated_by > ChemicalEntity (obtained 0 records, took 112ms)",
+      "timestamp": "2022-08-01T19:21:56.631Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/biolink/1.2 (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 122ms)",
+      "timestamp": "2022-08-01T19:21:56.644Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/drugcentral/1.2 (4 IDs): PhenotypicFeature > treated_by > ChemicalEntity (obtained 0 records, took 128ms)",
+      "timestamp": "2022-08-01T19:21:56.648Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/drugcentral/1.2 (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 129ms)",
+      "timestamp": "2022-08-01T19:21:56.649Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/biolink/1.2 (4 IDs): PhenotypicFeature > treated_by > SmallMolecule (obtained 0 records, took 134ms)",
+      "timestamp": "2022-08-01T19:21:56.656Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/biolink/1.2 (4 IDs): Disease > treated_by > ChemicalEntity (obtained 0 records, took 154ms)",
+      "timestamp": "2022-08-01T19:21:56.677Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/hetio/1.2 (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 246ms)",
+      "timestamp": "2022-08-01T19:21:56.770Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/idisk (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 284ms)",
+      "timestamp": "2022-08-01T19:21:56.791Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/text_mining_targeted_association (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 297ms)",
+      "timestamp": "2022-08-01T19:21:56.813Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/text_mining_targeted_association (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 301ms)",
+      "timestamp": "2022-08-01T19:21:56.815Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://mychem.info/v1 (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 331ms)",
+      "timestamp": "2022-08-01T19:21:56.832Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://mychem.info/v1 (3 IDs): Disease > approved_for_treatment_by > SmallMolecule (obtained 0 records, took 337ms)",
+      "timestamp": "2022-08-01T19:21:56.834Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://mychem.info/v1 (4 IDs): Disease > approved_for_treatment_by > SmallMolecule (obtained 0 records, took 351ms)",
+      "timestamp": "2022-08-01T19:21:56.850Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/hetio/1.2 (4 IDs): Disease > treated_by > ChemicalEntity (obtained 0 records, took 331ms)",
+      "timestamp": "2022-08-01T19:21:56.857Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/hetio/1.2 (4 IDs): Disease > treated_by > MolecularMixture (obtained 0 records, took 345ms)",
+      "timestamp": "2022-08-01T19:21:56.870Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 465ms)",
+      "timestamp": "2022-08-01T19:21:56.969Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): Disease > treated_by > SmallMolecule (obtained 1 record, took 468ms)",
+      "timestamp": "2022-08-01T19:21:56.971Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): Disease > treated_by > SmallMolecule (obtained 5 records, took 469ms)",
+      "timestamp": "2022-08-01T19:21:56.978Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/drugcentral/1.2 (4 IDs): Disease > treated_by > MolecularMixture (obtained 0 records, took 92ms)",
+      "timestamp": "2022-08-01T19:21:57.080Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/drugcentral/1.2 (4 IDs): PhenotypicFeature > treated_by > SmallMolecule (obtained 0 records, took 108ms)",
+      "timestamp": "2022-08-01T19:21:57.094Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/drugcentral/1.2 (4 IDs): PhenotypicFeature > treated_by > MolecularMixture (obtained 0 records, took 106ms)",
+      "timestamp": "2022-08-01T19:21:57.096Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/biolink/1.2 (4 IDs): PhenotypicFeature > treated_by > MolecularMixture (obtained 0 records, took 110ms)",
+      "timestamp": "2022-08-01T19:21:57.102Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/biolink/1.2 (4 IDs): PhenotypicFeature > treated_by > ChemicalEntity (obtained 0 records, took 122ms)",
+      "timestamp": "2022-08-01T19:21:57.112Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/biolink/1.2 (4 IDs): Disease > treated_by > MolecularMixture (obtained 0 records, took 134ms)",
+      "timestamp": "2022-08-01T19:21:57.125Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): PhenotypicFeature > treated_by > SmallMolecule (obtained 1 record, took 357ms)",
+      "timestamp": "2022-08-01T19:21:57.344Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 370ms)",
+      "timestamp": "2022-08-01T19:21:57.351Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): PhenotypicFeature > treated_by > SmallMolecule (obtained 0 records, took 371ms)",
+      "timestamp": "2022-08-01T19:21:57.354Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://mychem.info/v1 (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 694ms)",
+      "timestamp": "2022-08-01T19:21:57.672Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/biolink/1.2 (4 IDs): Disease > treated_by > ComplexMolecularMixture (obtained 0 records, took 106ms)",
+      "timestamp": "2022-08-01T19:21:57.784Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://automat.renci.org/biolink/1.2 (4 IDs): PhenotypicFeature > treated_by > ComplexMolecularMixture (obtained 0 records, took 113ms)",
+      "timestamp": "2022-08-01T19:21:57.792Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 353ms)",
+      "timestamp": "2022-08-01T19:21:58.029Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): Disease > treated_by > Drug (obtained 0 records, took 369ms)",
+      "timestamp": "2022-08-01T19:21:58.042Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 367ms)",
+      "timestamp": "2022-08-01T19:21:58.044Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 363ms)",
+      "timestamp": "2022-08-01T19:21:58.412Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): PhenotypicFeature > treated_by > SmallMolecule (obtained 5 records, took 369ms)",
+      "timestamp": "2022-08-01T19:21:58.419Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 369ms)",
+      "timestamp": "2022-08-01T19:21:58.420Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 366ms)",
+      "timestamp": "2022-08-01T19:21:58.788Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): Disease > treated_by > ChemicalEntity (obtained 0 records, took 370ms)",
+      "timestamp": "2022-08-01T19:21:58.791Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 369ms)",
+      "timestamp": "2022-08-01T19:21:58.793Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 363ms)",
+      "timestamp": "2022-08-01T19:21:59.159Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 369ms)",
+      "timestamp": "2022-08-01T19:21:59.164Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): PhenotypicFeature > treated_by > SmallMolecule (obtained 0 records, took 367ms)",
+      "timestamp": "2022-08-01T19:21:59.165Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 363ms)",
+      "timestamp": "2022-08-01T19:21:59.533Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): PhenotypicFeature > treated_by > SmallMolecule (obtained 0 records, took 370ms)",
+      "timestamp": "2022-08-01T19:21:59.538Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 373ms)",
+      "timestamp": "2022-08-01T19:21:59.539Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): PhenotypicFeature > treated_by > SmallMolecule (obtained 0 records, took 364ms)",
+      "timestamp": "2022-08-01T19:21:59.904Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Successful POST https://biothings.ncats.io/semmeddb (4 IDs): Disease > treated_by > SmallMolecule (obtained 0 records, took 367ms)",
+      "timestamp": "2022-08-01T19:21:59.908Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: Total number of records returned for this query is 12",
+      "timestamp": "2022-08-01T19:21:59.909Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: call-apis: qEdge queries complete in 3s",
+      "timestamp": "2022-08-01T19:22:00.736Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "[Template-0]: eB execution: 47 queries (47 success/0 fail) and (0) cached qEdges return (12) records",
+      "timestamp": "2022-08-01T19:22:00.752Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: Edge manager is managing 2 qEdges.",
+      "timestamp": "2022-08-01T19:21:55.442Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: Edge manager is sending next qEdge 'eA' for execution.",
+      "timestamp": "2022-08-01T19:21:55.442Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: 'eA' kept (19) / dropped (0) records.",
+      "timestamp": "2022-08-01T19:21:56.360Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: Edge manager is sending next qEdge 'eB' for execution.",
+      "timestamp": "2022-08-01T19:21:56.362Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: 'eB' kept (12) / dropped (0) records.",
+      "timestamp": "2022-08-01T19:22:00.754Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: 'eA' kept (4) / dropped (15) records.",
+      "timestamp": "2022-08-01T19:22:00.756Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: 'eB' kept (12) / dropped (0) records.",
+      "timestamp": "2022-08-01T19:22:00.757Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "[Template-0]: 'eA' keeps (4) records!",
+      "timestamp": "2022-08-01T19:22:00.759Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "[Template-0]: 'eB' keeps (12) records!",
+      "timestamp": "2022-08-01T19:22:00.759Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: Edge manager collected (16) records!",
+      "timestamp": "2022-08-01T19:22:00.759Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "[Template-0]: Successfully scored 5 results, couldn't score 0 results.",
+      "timestamp": "2022-08-01T19:22:00.919Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "[Template-0]: Execution Summary: (6) nodes / (9) edges / (5) results; (9/83) queries returned results from (6) unique APIs ",
+      "timestamp": "2022-08-01T19:22:00.920Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "[Template-0]: APIs: Automat Pharos (trapi v-1.2.0), Automat Ontological Hierarchy (trapi v-1.2.0), Automat Uberongraph (trapi v-1.2.0), Automat Biolink (trapi v-1.2.0), MyDisease.info API, BioThings SEMMEDDB API",
+      "timestamp": "2022-08-01T19:22:00.920Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "Template 1 exceeds absolute maximum of 1500 (2231). These results will not be included. Skipping remaining 2 templates.",
+      "timestamp": "2022-08-01T19:23:57.078Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "Execution Summary: (6) nodes / (9) edges / (5) results; (9/83) queries returned results from (6) unique APIs ",
+      "timestamp": "2022-08-01T19:23:57.078Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "APIs: Automat Pharos (trapi v-1.2.0), Automat Ontological Hierarchy (trapi v-1.2.0), Automat Uberongraph (trapi v-1.2.0), Automat Biolink (trapi v-1.2.0), MyDisease.info API, BioThings SEMMEDDB API",
+      "timestamp": "2022-08-01T19:23:57.078Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "Scoring Summary: (5) scored / (0) unscored",
+      "timestamp": "2022-08-01T19:23:57.078Z"
+    }
+  ],
+  "message": {
+    "knowledge_graph": {
+      "edges": {
+        "20b8a327e567988cc2409987c09a957b": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_source": "infores:automat-uberongraph",
+              "attribute_type_id": "biolink:original_knowledge_source",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": "biolink:original_knowledge_source",
+              "value": [
+                "infores:ontological-hierarchy"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "biolink:relation",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": "relation",
+              "value": "subClassOf",
+              "value_type_id": "EDAM:data_0006",
+              "value_url": null
+            },
+            {
+              "attribute_source": "infores:automat-uberongraph",
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:automat-uberongraph"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "value_url": null
+            }
+          ],
+          "object": "MONDO:0018956",
+          "predicate": "biolink:superclass_of",
+          "subject": "MONDO:0018956"
+        },
+        "26d1f1b7d6c6879b50af253f7e20398d": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:29518849"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:original_object",
+              "value": "C0339985"
+            },
+            {
+              "attribute_type_id": "biolink:original_predicate",
+              "value": "TREATS"
+            },
+            {
+              "attribute_type_id": "biolink:original_subject",
+              "value": "C0003240"
+            },
+            {
+              "attribute_type_id": "original_object_name",
+              "value": "Idiopathic bronchiectasis"
+            },
+            {
+              "attribute_type_id": "original_subject_name",
+              "value": "Macrolide Antibiotics"
+            }
+          ],
+          "object": "UMLS:C0003240",
+          "predicate": "biolink:treated_by",
+          "subject": "MONDO:0018956"
+        },
+        "2b970c8ef1b545de8c3c24d78c6d0c80": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_source": "infores:automat-biolink",
+              "attribute_type_id": "biolink:original_knowledge_source",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": "biolink:original_knowledge_source",
+              "value": [
+                "infores:ontological-hierarchy"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "biolink:relation",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": "relation",
+              "value": "subClassOf",
+              "value_type_id": "EDAM:data_0006",
+              "value_url": null
+            },
+            {
+              "attribute_source": "infores:automat-biolink",
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:automat-biolink"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "value_url": null
+            }
+          ],
+          "object": "MONDO:0018956",
+          "predicate": "biolink:superclass_of",
+          "subject": "MONDO:0018956"
+        },
+        "37efad5d0031b0ad8d997c7a76fb89d5": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:15919012"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:original_object",
+              "value": "C0339985"
+            },
+            {
+              "attribute_type_id": "biolink:original_predicate",
+              "value": "TREATS"
+            },
+            {
+              "attribute_type_id": "biolink:original_subject",
+              "value": "C0052796"
+            },
+            {
+              "attribute_type_id": "original_object_name",
+              "value": "Idiopathic bronchiectasis"
+            },
+            {
+              "attribute_type_id": "original_subject_name",
+              "value": "Azithromycin"
+            }
+          ],
+          "object": "PUBCHEM.COMPOUND:447043",
+          "predicate": "biolink:treated_by",
+          "subject": "MONDO:0018956"
+        },
+        "44da256a3888bc5cbd2da115e64f92f4": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:8182010"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:original_object",
+              "value": "C0339985"
+            },
+            {
+              "attribute_type_id": "biolink:original_predicate",
+              "value": "TREATS"
+            },
+            {
+              "attribute_type_id": "biolink:original_subject",
+              "value": "C0055856"
+            },
+            {
+              "attribute_type_id": "original_object_name",
+              "value": "Idiopathic bronchiectasis"
+            },
+            {
+              "attribute_type_id": "original_subject_name",
+              "value": "Clarithromycin"
+            }
+          ],
+          "object": "PUBCHEM.COMPOUND:84029",
+          "predicate": "biolink:treated_by",
+          "subject": "MONDO:0018956"
+        },
+        "4e1d22fcf4f7ad34936cf1492d6d54a6": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_source": "infores:automat-ontology-hierarchy",
+              "attribute_type_id": "biolink:original_knowledge_source",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": "biolink:original_knowledge_source",
+              "value": [
+                "infores:ontological-hierarchy"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "biolink:relation",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": "relation",
+              "value": "subClassOf",
+              "value_type_id": "EDAM:data_0006",
+              "value_url": null
+            },
+            {
+              "attribute_source": "infores:automat-ontology-hierarchy",
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:automat-ontology-hierarchy"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "value_url": null
+            }
+          ],
+          "object": "MONDO:0018956",
+          "predicate": "biolink:superclass_of",
+          "subject": "MONDO:0018956"
+        },
+        "8e7ac82724189859d64f262ebead0ae9": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_source": "infores:automat-pharos",
+              "attribute_type_id": "biolink:original_knowledge_source",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": "biolink:original_knowledge_source",
+              "value": [
+                "infores:ontological-hierarchy"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "biolink:relation",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": "relation",
+              "value": "subClassOf",
+              "value_type_id": "EDAM:data_0006",
+              "value_url": null
+            },
+            {
+              "attribute_source": "infores:automat-pharos",
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:automat-pharos"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "value_url": null
+            }
+          ],
+          "object": "MONDO:0018956",
+          "predicate": "biolink:superclass_of",
+          "subject": "MONDO:0018956"
+        },
+        "90642258f60d98fdf654e55e63e5b22a": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:14985560"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:original_object",
+              "value": "C0339985"
+            },
+            {
+              "attribute_type_id": "biolink:original_predicate",
+              "value": "TREATS"
+            },
+            {
+              "attribute_type_id": "biolink:original_subject",
+              "value": "C0003232"
+            },
+            {
+              "attribute_type_id": "original_object_name",
+              "value": "Idiopathic bronchiectasis"
+            },
+            {
+              "attribute_type_id": "original_subject_name",
+              "value": "Antibiotics"
+            }
+          ],
+          "object": "UMLS:C0003232",
+          "predicate": "biolink:treated_by",
+          "subject": "MONDO:0018956"
+        },
+        "b78c0e4bb851c977609fd1dd35d1af3e": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:20184817"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:original_object",
+              "value": "C0339985"
+            },
+            {
+              "attribute_type_id": "biolink:original_predicate",
+              "value": "TREATS"
+            },
+            {
+              "attribute_type_id": "biolink:original_subject",
+              "value": "C1135662"
+            },
+            {
+              "attribute_type_id": "original_object_name",
+              "value": "Idiopathic bronchiectasis"
+            },
+            {
+              "attribute_type_id": "original_subject_name",
+              "value": "recombinant human DNase"
+            }
+          ],
+          "object": "UMLS:C0251564",
+          "predicate": "biolink:treated_by",
+          "subject": "MONDO:0018956"
+        }
+      },
+      "nodes": {
+        "MONDO:0018956": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "MONDO:0018956",
+                "ORPHANET:60033",
+                "UMLS:C0339985",
+                "SNOMEDCT:233629001"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "idiopathic bronchiectasis",
+                "Idiopathic bronchiectasis"
+              ]
+            }
+          ],
+          "categories": [
+            "biolink:Disease"
+          ],
+          "name": "idiopathic bronchiectasis"
+        },
+        "PUBCHEM.COMPOUND:447043": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "PUBCHEM.COMPOUND:447043",
+                "CHEMBL.COMPOUND:CHEMBL529",
+                "UNII:J2KLZ20U1M",
+                "CHEBI:2955",
+                "DRUGBANK:DB00207",
+                "MESH:D017963",
+                "CAS:83905-01-5",
+                "DrugCentral:276",
+                "GTOPDB:6510",
+                "HMDB:HMDB0014352",
+                "INCHIKEY:MQTOSJVFKKJCRP-BICOPXKESA-N",
+                "UMLS:C0052796",
+                "UMLS:C0678143",
+                "UMLS:C0795582",
+                "UMLS:C0886592"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "Azithromycin",
+                "AZITHROMYCIN",
+                "AZITHROMYCIN ANHYDROUS",
+                "azithromycin",
+                "Zithromax",
+                "Azithromycin Dihydrate",
+                "Azithromycin Monohydrate"
+              ]
+            }
+          ],
+          "categories": [
+            "biolink:SmallMolecule"
+          ],
+          "name": "Azithromycin"
+        },
+        "PUBCHEM.COMPOUND:84029": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "PUBCHEM.COMPOUND:84029",
+                "CHEMBL.COMPOUND:CHEMBL1741",
+                "UNII:H1250JIK0A",
+                "CHEBI:3732",
+                "DRUGBANK:DB01211",
+                "MESH:C040934",
+                "MESH:D017291",
+                "CAS:81103-11-9",
+                "DrugCentral:668",
+                "GTOPDB:10903",
+                "HMDB:HMDB0015342",
+                "KEGG.COMPOUND:C06912",
+                "INCHIKEY:AGOYDEPGAOXOCK-KCBOHYOISA-N",
+                "UMLS:C0055856",
+                "UMLS:C0620902"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "Clarithromycin",
+                "CLARITHROMYCIN",
+                "clarithromycin",
+                "6-O-methylerythromycin A"
+              ]
+            }
+          ],
+          "categories": [
+            "biolink:SmallMolecule"
+          ],
+          "name": "Clarithromycin"
+        },
+        "UMLS:C0003232": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "UMLS:C0003232"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "Antibiotics"
+              ]
+            }
+          ],
+          "categories": [
+            "biolink:ChemicalEntity"
+          ],
+          "name": "Antibiotics"
+        },
+        "UMLS:C0003240": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "UMLS:C0003240"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "Macrolide Antibiotics"
+              ]
+            }
+          ],
+          "categories": [
+            "biolink:ChemicalEntity"
+          ],
+          "name": "Macrolide Antibiotics"
+        },
+        "UMLS:C0251564": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "UMLS:C0251564",
+                "UMLS:C1135662"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "Pulmozyme",
+                "Dornase Alfa"
+              ]
+            }
+          ],
+          "categories": [
+            "biolink:Protein"
+          ],
+          "name": "Pulmozyme"
+        }
+      }
+    },
+    "query_graph": {
+      "edges": {
+        "e0": {
+          "knowledge_type": "inferred",
+          "object": "n0",
+          "predicates": [
+            "biolink:treats"
+          ],
+          "subject": "n1"
+        }
+      },
+      "nodes": {
+        "n0": {
+          "categories": [
+            "biolink:Disease"
+          ],
+          "ids": [
+            "MONDO:0018956"
+          ],
+          "name": "Idiopathic bronchiectasis"
+        },
+        "n1": {
+          "categories": [
+            "biolink:ChemicalEntity"
+          ]
+        }
+      }
+    },
+    "results": [
+      {
+        "edge_bindings": {
+          "eA": [
+            {
+              "id": "8e7ac82724189859d64f262ebead0ae9"
+            },
+            {
+              "id": "2b970c8ef1b545de8c3c24d78c6d0c80"
+            },
+            {
+              "id": "4e1d22fcf4f7ad34936cf1492d6d54a6"
+            },
+            {
+              "id": "20b8a327e567988cc2409987c09a957b"
+            }
+          ],
+          "eB": [
+            {
+              "id": "b78c0e4bb851c977609fd1dd35d1af3e"
+            }
+          ]
+        },
+        "node_bindings": {
+          "n0": [
+            {
+              "id": "MONDO:0018956"
+            }
+          ],
+          "n1": [
+            {
+              "id": "UMLS:C0251564"
+            }
+          ],
+          "nA": [
+            {
+              "id": "MONDO:0018956"
+            }
+          ]
+        },
+        "reasoner_id": "BTE",
+        "score": 1.89899574815171
+      },
+      {
+        "edge_bindings": {
+          "eA": [
+            {
+              "id": "8e7ac82724189859d64f262ebead0ae9"
+            },
+            {
+              "id": "2b970c8ef1b545de8c3c24d78c6d0c80"
+            },
+            {
+              "id": "4e1d22fcf4f7ad34936cf1492d6d54a6"
+            },
+            {
+              "id": "20b8a327e567988cc2409987c09a957b"
+            }
+          ],
+          "eB": [
+            {
+              "id": "26d1f1b7d6c6879b50af253f7e20398d"
+            }
+          ]
+        },
+        "node_bindings": {
+          "n0": [
+            {
+              "id": "MONDO:0018956"
+            }
+          ],
+          "n1": [
+            {
+              "id": "UMLS:C0003240"
+            }
+          ],
+          "nA": [
+            {
+              "id": "MONDO:0018956"
+            }
+          ]
+        },
+        "reasoner_id": "BTE",
+        "score": 1.6394396602992236
+      },
+      {
+        "edge_bindings": {
+          "eA": [
+            {
+              "id": "8e7ac82724189859d64f262ebead0ae9"
+            },
+            {
+              "id": "2b970c8ef1b545de8c3c24d78c6d0c80"
+            },
+            {
+              "id": "4e1d22fcf4f7ad34936cf1492d6d54a6"
+            },
+            {
+              "id": "20b8a327e567988cc2409987c09a957b"
+            }
+          ],
+          "eB": [
+            {
+              "id": "44da256a3888bc5cbd2da115e64f92f4"
+            }
+          ]
+        },
+        "node_bindings": {
+          "n0": [
+            {
+              "id": "MONDO:0018956"
+            }
+          ],
+          "n1": [
+            {
+              "id": "PUBCHEM.COMPOUND:84029"
+            }
+          ],
+          "nA": [
+            {
+              "id": "MONDO:0018956"
+            }
+          ]
+        },
+        "reasoner_id": "BTE",
+        "score": 1.591406811780803
+      },
+      {
+        "edge_bindings": {
+          "eA": [
+            {
+              "id": "8e7ac82724189859d64f262ebead0ae9"
+            },
+            {
+              "id": "2b970c8ef1b545de8c3c24d78c6d0c80"
+            },
+            {
+              "id": "4e1d22fcf4f7ad34936cf1492d6d54a6"
+            },
+            {
+              "id": "20b8a327e567988cc2409987c09a957b"
+            }
+          ],
+          "eB": [
+            {
+              "id": "37efad5d0031b0ad8d997c7a76fb89d5"
+            }
+          ]
+        },
+        "node_bindings": {
+          "n0": [
+            {
+              "id": "MONDO:0018956"
+            }
+          ],
+          "n1": [
+            {
+              "id": "PUBCHEM.COMPOUND:447043"
+            }
+          ],
+          "nA": [
+            {
+              "id": "MONDO:0018956"
+            }
+          ]
+        },
+        "reasoner_id": "BTE",
+        "score": 1.4422204413849522
+      },
+      {
+        "edge_bindings": {
+          "eA": [
+            {
+              "id": "8e7ac82724189859d64f262ebead0ae9"
+            },
+            {
+              "id": "2b970c8ef1b545de8c3c24d78c6d0c80"
+            },
+            {
+              "id": "4e1d22fcf4f7ad34936cf1492d6d54a6"
+            },
+            {
+              "id": "20b8a327e567988cc2409987c09a957b"
+            }
+          ],
+          "eB": [
+            {
+              "id": "90642258f60d98fdf654e55e63e5b22a"
+            }
+          ]
+        },
+        "node_bindings": {
+          "n0": [
+            {
+              "id": "MONDO:0018956"
+            }
+          ],
+          "n1": [
+            {
+              "id": "UMLS:C0003232"
+            }
+          ],
+          "nA": [
+            {
+              "id": "MONDO:0018956"
+            }
+          ]
+        },
+        "reasoner_id": "BTE",
+        "score": 1.137725359135396
+      }
+    ]
+  },
+  "validation_result": {
+    "message": "",
+    "n_edges": 9,
+    "n_nodes": 6,
+    "provenance_summary": {
+      "n_sources": 8,
+      "predicate_counts": {
+        "biolink:superclass_of": 4,
+        "biolink:treated_by": 5
+      },
+      "provenance_counts": {
+        "biolink:superclass_of --> biolink:aggregator_knowledge_source = ['infores:automat-biolink']": [
+          "biolink:superclass_of",
+          "biolink:aggregator_knowledge_source",
+          [
+            "infores:automat-biolink"
+          ],
+          1
+        ],
+        "biolink:superclass_of --> biolink:aggregator_knowledge_source = ['infores:automat-ontology-hierarchy']": [
+          "biolink:superclass_of",
+          "biolink:aggregator_knowledge_source",
+          [
+            "infores:automat-ontology-hierarchy"
+          ],
+          1
+        ],
+        "biolink:superclass_of --> biolink:aggregator_knowledge_source = ['infores:automat-pharos']": [
+          "biolink:superclass_of",
+          "biolink:aggregator_knowledge_source",
+          [
+            "infores:automat-pharos"
+          ],
+          1
+        ],
+        "biolink:superclass_of --> biolink:aggregator_knowledge_source = ['infores:automat-uberongraph']": [
+          "biolink:superclass_of",
+          "biolink:aggregator_knowledge_source",
+          [
+            "infores:automat-uberongraph"
+          ],
+          1
+        ],
+        "biolink:superclass_of --> biolink:aggregator_knowledge_source = ['infores:biothings-explorer']": [
+          "biolink:superclass_of",
+          "biolink:aggregator_knowledge_source",
+          [
+            "infores:biothings-explorer"
+          ],
+          4
+        ],
+        "biolink:superclass_of --> biolink:original_knowledge_source = ['infores:ontological-hierarchy']": [
+          "biolink:superclass_of",
+          "biolink:original_knowledge_source",
+          [
+            "infores:ontological-hierarchy"
+          ],
+          4
+        ],
+        "biolink:treated_by --> biolink:aggregator_knowledge_source = ['infores:biothings-explorer']": [
+          "biolink:treated_by",
+          "biolink:aggregator_knowledge_source",
+          [
+            "infores:biothings-explorer"
+          ],
+          5
+        ],
+        "biolink:treated_by --> biolink:aggregator_knowledge_source = ['infores:biothings-semmeddb']": [
+          "biolink:treated_by",
+          "biolink:aggregator_knowledge_source",
+          [
+            "infores:biothings-semmeddb"
+          ],
+          5
+        ],
+        "biolink:treated_by --> biolink:primary_knowledge_source = ['infores:semmeddb']": [
+          "biolink:treated_by",
+          "biolink:primary_knowledge_source",
+          [
+            "infores:semmeddb"
+          ],
+          5
+        ]
+      }
+    },
+    "size": "67 kB",
+    "status": "PASS",
+    "version": "1.2.0"
+  },
+  "workflow": [
+    {
+      "id": "lookup"
+    }
+  ]
+}
