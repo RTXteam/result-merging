@@ -19,6 +19,7 @@ def merge_responses(query_dir_name: str):
     # For each ARA, organize their results by hash keys and merge their KG into an overarching KG
     results_by_hash_key = defaultdict(list)
     merged_kg = {"nodes": dict(), "edges": dict()}
+    pre_merging_counts = {"results": 0, "nodes": 0, "edges": 0}
     ara_response_file_names = [file_name for file_name in os.listdir(f"{query_dir_path}/ara_responses")
                                if file_name.endswith(".json")]
     for ara_file_name in ara_response_file_names:
@@ -30,6 +31,9 @@ def merge_responses(query_dir_name: str):
         kg = response["message"]["knowledge_graph"]
         print(f"    {ara} response contains {len(results)} results, "
               f"{len(kg['nodes'])} KG nodes, {len(kg['edges'])} KG edges")
+        pre_merging_counts["results"] += len(results)
+        pre_merging_counts["nodes"] += len(kg['nodes'])
+        pre_merging_counts["edges"] += len(kg['edges'])
         # Organize results by their hash keys
         for result in results:
             qnode_keys_fulfilled_in_result = set(result["node_bindings"])
@@ -63,7 +67,8 @@ def merge_responses(query_dir_name: str):
 
     # Then go through and merge all results with equivalent hash keys; we want the UNION of nodes
     merged_results = []
-    print(f"  Merging result sets from all ARAs...")
+    print(f"  Merging result sets from all ARAs... before merging there are {pre_merging_counts['results']} "
+          f"results, {pre_merging_counts['nodes']} nodes, and {pre_merging_counts['edges']} edges.")
     for hash_key, results in results_by_hash_key.items():
         merged_result = {"node_bindings": defaultdict(list), "edge_bindings": defaultdict(list)}
         for result in results:
@@ -77,8 +82,12 @@ def merge_responses(query_dir_name: str):
                     merged_result["edge_bindings"][qedge_key].append(edge_binding)
             # Note: Optionally might have some way of also merging result score?
         merged_results.append(merged_result)
-    print(f"Done merging responses for {query_dir_name}! There are {len(merged_results)} results after merging. "
-          f"Merged KG contains {len(merged_kg['nodes'])} nodes and {len(merged_kg['edges'])} edges.")
+    percent_results = round((len(merged_results) / pre_merging_counts["results"]) * 100)
+    percent_nodes = round((len(merged_kg["nodes"]) / pre_merging_counts["nodes"]) * 100)
+    percent_edges = round((len(merged_kg["edges"]) / pre_merging_counts["edges"]) * 100)
+    print(f"Done merging responses for {query_dir_name}! There are {len(merged_results)} results after merging "
+          f"({percent_results}%). Merged KG contains {len(merged_kg['nodes'])} nodes ({percent_nodes}%) and "
+          f"{len(merged_kg['edges'])} edges ({percent_edges}%).")
 
     # Get rid of duplicate node bindings
     for merged_result in merged_results:

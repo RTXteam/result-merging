@@ -4,32 +4,4 @@ Query taken from: https://github.com/NCATSTranslator/testing/issues/193
 Responses were downloaded from:
 https://arax.ncats.io/?r=1c75694f-7cca-4a32-8cc3-5693715c43f5
 
-Query was (run in April 2022):
-{
-  "edges": {
-    "e00": {
-      "object": "n00",
-      "predicates": [
-        "biolink:treats"
-      ],
-      "subject": "n01"
-    }
-  },
-  "nodes": {
-    "n00": {
-      "categories": [
-        "biolink:DiseaseOrPhenotypicFeature"
-      ],
-      "constraints": [],
-      "ids": [
-        "MONDO:0018493"
-      ]
-    },
-    "n01": {
-      "categories": [
-        "biolink:Drug"
-      ],
-      "constraints": []
-    }
-  }
-}
+Query was run in April 2022.
