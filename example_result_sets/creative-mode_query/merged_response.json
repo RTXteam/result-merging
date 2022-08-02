@@ -216,7 +216,8 @@
               "id": "creative_DTD_prediction_5"
             }
           ]
-        }
+        },
+        "essence": "DEXAMETHASONE DIPROPIONATE"
       },
       {
         "node_bindings": {
@@ -422,7 +423,8 @@
               "id": "creative_DTD_prediction_6"
             }
           ]
-        }
+        },
+        "essence": "METHYLPREDNISOLONE"
       },
       {
         "node_bindings": {
@@ -606,7 +608,8 @@
               "id": "creative_DTD_prediction_7"
             }
           ]
-        }
+        },
+        "essence": "PRANLUKAST"
       },
       {
         "node_bindings": {
@@ -740,7 +743,8 @@
               "id": "creative_DTD_prediction_0"
             }
           ]
-        }
+        },
+        "essence": "PREDNISONE"
       },
       {
         "node_bindings": {
@@ -866,7 +870,8 @@
               "id": "creative_DTD_prediction_1"
             }
           ]
-        }
+        },
+        "essence": "INSULIN LISPRO"
       },
       {
         "node_bindings": {
@@ -992,7 +997,8 @@
               "id": "creative_DTD_prediction_2"
             }
           ]
-        }
+        },
+        "essence": "INSULIN GLARGINE"
       },
       {
         "node_bindings": {
@@ -1118,7 +1124,8 @@
               "id": "creative_DTD_prediction_3"
             }
           ]
-        }
+        },
+        "essence": "INSULIN GLULISINE"
       },
       {
         "node_bindings": {
@@ -1222,7 +1229,8 @@
               "id": "creative_DTD_prediction_4"
             }
           ]
-        }
+        },
+        "essence": "INSULIN ASPART"
       },
       {
         "node_bindings": {
@@ -1273,7 +1281,8 @@
               "id": "44da256a3888bc5cbd2da115e64f92f4"
             }
           ]
-        }
+        },
+        "essence": "Clarithromycin"
       },
       {
         "node_bindings": {
@@ -1324,7 +1333,8 @@
               "id": "b78c0e4bb851c977609fd1dd35d1af3e"
             }
           ]
-        }
+        },
+        "essence": "Pulmozyme"
       },
       {
         "node_bindings": {
@@ -1375,7 +1385,8 @@
               "id": "37efad5d0031b0ad8d997c7a76fb89d5"
             }
           ]
-        }
+        },
+        "essence": "Azithromycin"
       },
       {
         "node_bindings": {
@@ -1426,7 +1437,8 @@
               "id": "26d1f1b7d6c6879b50af253f7e20398d"
             }
           ]
-        }
+        },
+        "essence": "Macrolide Antibiotics"
       },
       {
         "node_bindings": {
@@ -1477,7 +1489,8 @@
               "id": "90642258f60d98fdf654e55e63e5b22a"
             }
           ]
-        }
+        },
+        "essence": "Antibiotics"
       }
     ],
     "query_graph": {

@@ -57,7 +57,8 @@
               "id": "N1_32"
             }
           ]
-        }
+        },
+        "essence": "UMLS:C0357155"
       },
       {
         "node_bindings": {
@@ -121,7 +122,8 @@
               "id": "8079339-leuywqbiiu"
             }
           ]
-        }
+        },
+        "essence": ""
       },
       {
         "node_bindings": {
@@ -176,7 +178,8 @@
               "id": "13151771-teuicadrtg"
             }
           ]
-        }
+        },
+        "essence": "SUXAMETHONIUM"
       },
       {
         "node_bindings": {
@@ -222,7 +225,8 @@
               "id": "10842726-meukzwaakj"
             }
           ]
-        }
+        },
+        "essence": "PROCAINE"
       },
       {
         "node_bindings": {
@@ -268,7 +272,8 @@
               "id": "17974788-otgrrfmtro"
             }
           ]
-        }
+        },
+        "essence": "AZUMOLENE SODIUM"
       },
       {
         "node_bindings": {
@@ -314,7 +319,8 @@
               "id": "14381098-lsresamwyg"
             }
           ]
-        }
+        },
+        "essence": "PROPOFOL"
       },
       {
         "node_bindings": {
@@ -369,7 +375,8 @@
               "id": "8174052-yexrlbtrbu"
             }
           ]
-        }
+        },
+        "essence": "Pharmaceutical Preparations"
       },
       {
         "node_bindings": {
@@ -424,7 +431,8 @@
               "id": "13380712-wcnxijxrnb"
             }
           ]
-        }
+        },
+        "essence": "Anesthetics"
       },
       {
         "node_bindings": {
@@ -479,7 +487,8 @@
               "id": "12915521-czzcfloigb"
             }
           ]
-        }
+        },
+        "essence": "HALOTHANE"
       },
       {
         "node_bindings": {
@@ -525,7 +534,8 @@
               "id": "10807409-clmfnigyvb"
             }
           ]
-        }
+        },
+        "essence": "PROCAINAMIDE HYDROCHLORIDE"
       },
       {
         "node_bindings": {
@@ -580,7 +590,8 @@
               "id": "12915508-wsvxmahnaw"
             }
           ]
-        }
+        },
+        "essence": "CAFFEINE"
       },
       {
         "node_bindings": {
@@ -626,7 +637,8 @@
               "id": "14016030-gvfcijamqw"
             }
           ]
-        }
+        },
+        "essence": "Skeletal muscle relaxants"
       },
       {
         "node_bindings": {
@@ -681,7 +693,8 @@
               "id": "18213291-jisjujoqst"
             }
           ]
-        }
+        },
+        "essence": "Muscle relaxants"
       },
       {
         "node_bindings": {
@@ -727,7 +740,8 @@
               "id": "12103936-qdsecgbnvp"
             }
           ]
-        }
+        },
+        "essence": "local anaesthetic"
       },
       {
         "node_bindings": {
@@ -782,7 +796,8 @@
               "id": "23830259-ufzrcjdrvh"
             }
           ]
-        }
+        },
+        "essence": "SEVOFLURANE"
       },
       {
         "node_bindings": {
@@ -837,7 +852,8 @@
               "id": "8063152-ngtmkydeay"
             }
           ]
-        }
+        },
+        "essence": "Neuromuscular blocking agents"
       },
       {
         "node_bindings": {
@@ -883,7 +899,8 @@
               "id": "23966544-dzztiytpop"
             }
           ]
-        }
+        },
+        "essence": "Anesthesia"
       },
       {
         "node_bindings": {
@@ -929,7 +946,8 @@
               "id": "25879395-roclmcjsui"
             }
           ]
-        }
+        },
+        "essence": "REMIMAZOLAM"
       },
       {
         "node_bindings": {
@@ -975,7 +993,8 @@
               "id": "19283563-uaftekmvcn"
             }
           ]
-        }
+        },
+        "essence": "FENTANYL"
       },
       {
         "node_bindings": {
@@ -1021,7 +1040,8 @@
               "id": "13233435-xyvdenfbio"
             }
           ]
-        }
+        },
+        "essence": "VERAPAMIL HYDROCHLORIDE"
       },
       {
         "node_bindings": {
@@ -1067,7 +1087,8 @@
               "id": "24608096-pskbbvvecz"
             }
           ]
-        }
+        },
+        "essence": "Today"
       },
       {
         "node_bindings": {
@@ -1113,7 +1134,8 @@
               "id": "19909284-apkoduqdvs"
             }
           ]
-        }
+        },
+        "essence": "Activated Charcoal"
       },
       {
         "node_bindings": {
@@ -1159,7 +1181,8 @@
               "id": "25596006-wrkxmznkqr"
             }
           ]
-        }
+        },
+        "essence": "SIMVASTATIN"
       },
       {
         "node_bindings": {
@@ -1214,7 +1237,8 @@
               "id": "13545617-zuynfdlsev"
             }
           ]
-        }
+        },
+        "essence": "KETAMINE"
       },
       {
         "node_bindings": {
@@ -1260,7 +1284,8 @@
               "id": "14759592-vjilmzgxvl"
             }
           ]
-        }
+        },
+        "essence": "Calcium channel blockers"
       },
       {
         "node_bindings": {
@@ -1306,7 +1331,8 @@
               "id": "16819098-dygxhxvgal"
             }
           ]
-        }
+        },
+        "essence": "antipsychotic agent"
       },
       {
         "node_bindings": {
@@ -1352,7 +1378,8 @@
               "id": "11635451-ixttnqvonn"
             }
           ]
-        }
+        },
+        "essence": "LIDOCAINE"
       },
       {
         "node_bindings": {
@@ -1398,7 +1425,8 @@
               "id": "14159469-hyspvxdgsr"
             }
           ]
-        }
+        },
+        "essence": "Arginine"
       },
       {
         "node_bindings": {
@@ -1444,7 +1472,8 @@
               "id": "12727309-djyzeppmlq"
             }
           ]
-        }
+        },
+        "essence": "Tricyclic Antidepressive Agents"
       },
       {
         "node_bindings": {
@@ -1490,7 +1519,8 @@
               "id": "12927033-oalilbeyne"
             }
           ]
-        }
+        },
+        "essence": "therapeutic agent"
       },
       {
         "node_bindings": {
@@ -1536,7 +1566,8 @@
               "id": "10951565-wicddyccfj"
             }
           ]
-        }
+        },
+        "essence": "CHLORPROMAZINE"
       },
       {
         "node_bindings": {
@@ -1582,7 +1613,8 @@
               "id": "18310965-hnseqxkcvp"
             }
           ]
-        }
+        },
+        "essence": "beta-adrenergic antagonist"
       },
       {
         "node_bindings": {
@@ -1628,7 +1660,8 @@
               "id": "25240594-ilbiftvenj"
             }
           ]
-        }
+        },
+        "essence": "CISPLATIN"
       },
       {
         "node_bindings": {
@@ -1674,7 +1707,8 @@
               "id": "21383659-aumqcxinqu"
             }
           ]
-        }
+        },
+        "essence": "OXYGEN"
       },
       {
         "node_bindings": {
@@ -1720,7 +1754,8 @@
               "id": "16091880-znksnkxspg"
             }
           ]
-        }
+        },
+        "essence": "Norepinephrine"
       },
       {
         "node_bindings": {
@@ -1766,7 +1801,8 @@
               "id": "10807399-bhelmqcofa"
             }
           ]
-        }
+        },
+        "essence": "ACETAMINOPHEN"
       },
       {
         "node_bindings": {
@@ -1787,7 +1823,8 @@
               "id": "11755061-lzukrzssbq"
             }
           ]
-        }
+        },
+        "essence": "Neuromuscular Nondepolarizing Agents"
       },
       {
         "node_bindings": {
@@ -1817,7 +1854,8 @@
               "id": "16023801-mvbacaauza"
             }
           ]
-        }
+        },
+        "essence": "DROPERIDOL"
       },
       {
         "node_bindings": {
@@ -1838,7 +1876,8 @@
               "id": "12915516-drlzcleqea"
             }
           ]
-        }
+        },
+        "essence": "HALOPERIDOL"
       },
       {
         "node_bindings": {
@@ -1859,7 +1898,8 @@
               "id": "14028561-ocultatkxr"
             }
           ]
-        }
+        },
+        "essence": "Dopamine"
       },
       {
         "node_bindings": {
@@ -1880,7 +1920,8 @@
               "id": "16023800-ljekczuamc"
             }
           ]
-        }
+        },
+        "essence": "ACEPROMAZINE"
       },
       {
         "node_bindings": {
@@ -1901,7 +1942,8 @@
               "id": "21924113-atjjmannqa"
             }
           ]
-        }
+        },
+        "essence": "INAMRINONE"
       },
       {
         "node_bindings": {
@@ -1922,7 +1964,8 @@
               "id": "22212394-fuafafacpp"
             }
           ]
-        }
+        },
+        "essence": "Glycogen"
       },
       {
         "node_bindings": {
@@ -1943,7 +1986,8 @@
               "id": "23312894-dbihgaibeg"
             }
           ]
-        }
+        },
+        "essence": "Insulin"
       },
       {
         "node_bindings": {
@@ -1964,7 +2008,8 @@
               "id": "23866914-utcnsjgaoe"
             }
           ]
-        }
+        },
+        "essence": "ROCURONIUM"
       },
       {
         "node_bindings": {
@@ -1985,7 +2030,8 @@
               "id": "25023263-tzpddjpgxo"
             }
           ]
-        }
+        },
+        "essence": "Lipopolysaccharide"
       },
       {
         "node_bindings": {
@@ -2006,7 +2052,8 @@
               "id": "9555569-vgosptxwmm"
             }
           ]
-        }
+        },
+        "essence": "SULFUR, PRECIPITATED"
       },
       {
         "node_bindings": {
@@ -2027,7 +2074,8 @@
               "id": "5383390"
             }
           ]
-        }
+        },
+        "essence": "DANTROLENE SODIUM"
       },
       {
         "node_bindings": {
@@ -2048,7 +2096,8 @@
               "id": "5378424"
             }
           ]
-        }
+        },
+        "essence": "DANTROLENE"
       }
     ],
     "query_graph": {

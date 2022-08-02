@@ -100,6 +100,19 @@ def merge_responses(query_dir_name: str):
                     deduplicated_node_bindings.append(node_binding)
                     bound_curies.add(node_id)
 
+    # Figure out the 'essence' of each result (helpful for the ARAX UI)
+    unpinned_required_qnodes = {qnode_key for qnode_key in required_qnode_keys
+                                if not query_graph["nodes"][qnode_key].get("ids")}
+    if len(unpinned_required_qnodes) > 1:
+        print(f"Hmm, more than one potential essence node. Will randomly choose out of the "
+              f"{len(unpinned_required_qnodes)} candidates.")
+    essence_qnode_key = list(unpinned_required_qnodes)[0]
+    print(f"Essence qnode is {essence_qnode_key}")
+    for result in merged_results:
+        essence_node_key = result["node_bindings"][essence_qnode_key][0]["id"]
+        essence_node_name = merged_kg["nodes"][essence_node_key].get("name", essence_node_key)
+        result["essence"] = essence_node_name
+
     # Save the merged TRAPI response
     merged_response = {"message": {"results": merged_results,
                                    "query_graph": query_graph,

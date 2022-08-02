@@ -1,0 +1,25 @@
+{
+  "edges": {
+    "e00": {
+      "object": "n01",
+      "predicates": [
+        "biolink:interacts_with"
+      ],
+      "subject": "n00"
+    }
+  },
+  "nodes": {
+    "n00": {
+      "constraints": [],
+      "ids": [
+        "CHEMBL.COMPOUND:CHEMBL112"
+      ]
+    },
+    "n01": {
+      "categories": [
+        "biolink:Protein"
+      ],
+      "constraints": []
+    }
+  }
+}
