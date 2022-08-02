@@ -107,6 +107,16 @@ def merge_responses(query_dir_name: str):
     with open(f"{query_dir_path}/merged_response.json", "w+") as merged_response_file:
         json.dump(merged_response, merged_response_file, indent=2)
 
+    # Save a little report of result/KG counts
+    stats_report = {"pre_merging": {"results": pre_merging_counts["results"],
+                                    "nodes": pre_merging_counts["nodes"],
+                                    "edges": pre_merging_counts["edges"]},
+                    "post_merging": {"results": f"{len(merged_results)} ({percent_results}%)",
+                                     "nodes": f"{len(merged_kg['nodes'])} ({percent_nodes}%)",
+                                     "edges": f"{len(merged_kg['edges'])} ({percent_edges}%)"}}
+    with open(f"{query_dir_path}/report.json", "w+") as report_file:
+        json.dump(stats_report, report_file, indent=2)
+
 
 def main():
     example_queries = ["treats_query", "insulin-atelectasis_2hop_query"]
