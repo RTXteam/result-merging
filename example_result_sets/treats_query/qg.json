@@ -1,0 +1,28 @@
+{
+  "edges": {
+    "e00": {
+      "object": "n00",
+      "predicates": [
+        "biolink:treats"
+      ],
+      "subject": "n01"
+    }
+  },
+  "nodes": {
+    "n00": {
+      "categories": [
+        "biolink:DiseaseOrPhenotypicFeature"
+      ],
+      "constraints": [],
+      "ids": [
+        "MONDO:0018493"
+      ]
+    },
+    "n01": {
+      "categories": [
+        "biolink:Drug"
+      ],
+      "constraints": []
+    }
+  }
+}

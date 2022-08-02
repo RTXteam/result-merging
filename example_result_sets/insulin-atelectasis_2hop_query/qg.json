@@ -1,0 +1,49 @@
+{
+  "edges": {
+    "e01": {
+      "constraints": [],
+      "object": "n0",
+      "predicates": [
+        "biolink:related_to"
+      ],
+      "subject": "n1"
+    },
+    "e02": {
+      "constraints": [],
+      "object": "n1",
+      "predicates": [
+        "biolink:related_to"
+      ],
+      "subject": "n2"
+    }
+  },
+  "nodes": {
+    "n0": {
+      "categories": [
+        "biolink:Gene"
+      ],
+      "constraints": [],
+      "ids": [
+        "NCBIGene:3643"
+      ],
+      "is_set": false
+    },
+    "n1": {
+      "categories": [
+        "biolink:NamedThing"
+      ],
+      "constraints": [],
+      "is_set": false
+    },
+    "n2": {
+      "categories": [
+        "biolink:PhenotypicFeature"
+      ],
+      "constraints": [],
+      "ids": [
+        "HP:0100750"
+      ],
+      "is_set": false
+    }
+  }
+}

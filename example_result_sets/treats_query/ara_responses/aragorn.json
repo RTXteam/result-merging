@@ -1,0 +1,440 @@
+{
+  "log_level": null,
+  "logs": [],
+  "message": {
+    "knowledge_graph": {
+      "edges": {
+        "5a29d465532e": {
+          "attributes": [
+            {
+              "attribute_source": null,
+              "attribute_type_id": "original_object_name",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": "Malignant hyperpyrexia due to anesthesia",
+              "value_type_id": null,
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": [
+                "infores:biothings-semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "biolink:original_object",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": "C0024591",
+              "value_type_id": null,
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "original_subject_name",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": "Oral form sodium",
+              "value_type_id": null,
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "biolink:original_predicate",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": "TREATS",
+              "value_type_id": null,
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "biolink:publications",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": [
+                "PMID:7282692"
+              ],
+              "value_type_id": null,
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "biolink:original_subject",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": "C0357155",
+              "value_type_id": null,
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": [
+                "infores:semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": "infores:aragorn",
+              "value_type_id": null,
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": [
+                "infores:biothings-explorer"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "biolink:has_numeric_value",
+              "original_attribute_name": "weight",
+              "value": 1,
+              "value_type_id": "EDAM:data_1669",
+              "value_url": null
+            }
+          ],
+          "object": "MONDO:0018493",
+          "predicate": "biolink:treats",
+          "subject": "UMLS:C0357155"
+        }
+      },
+      "nodes": {
+        "MONDO:0018493": {
+          "attributes": [
+            {
+              "attribute_source": null,
+              "attribute_type_id": "biolink:xref",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": [
+                "MONDO:0018493",
+                "DOID:8545",
+                "OMIM:PS145600",
+                "ORPHANET:423",
+                "UMLS:C0024591",
+                "MESH:D008305",
+                "MEDDRA:10016561",
+                "MEDDRA:10020742",
+                "MEDDRA:10020844",
+                "MEDDRA:10025599",
+                "MEDDRA:10025607",
+                "NCIT:C84869",
+                "SNOMEDCT:213026003",
+                "SNOMEDCT:405501007",
+                "ICD10:T88.3",
+                "ICD9:995.86",
+                "HP:0002047"
+              ],
+              "value_type_id": null,
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "target_qg_nodes",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": [],
+              "value_type_id": null,
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "source_qg_nodes",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": [
+                "n01"
+              ],
+              "value_type_id": null,
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "num_target_nodes",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": 0,
+              "value_type_id": null,
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "biolink:synonym",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": [
+                "malignant hyperthermia of anesthesia",
+                "malignant hyperthermia",
+                "Malignant hyperpyrexia due to anesthesia",
+                "Malignant Hyperthermia",
+                "Malignant Hyperthermia Syndrome",
+                "Malignant hyperthermia"
+              ],
+              "value_type_id": null,
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "num_source_nodes",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": 1,
+              "value_type_id": null,
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "biolink:has_count",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": "omnicorp_article_count",
+              "value": 4750,
+              "value_type_id": "EDAM:data_0006",
+              "value_url": null
+            }
+          ],
+          "categories": [
+            "biolink:Disease"
+          ],
+          "name": "malignant hyperthermia of anesthesia"
+        },
+        "UMLS:C0357155": {
+          "attributes": [
+            {
+              "attribute_source": null,
+              "attribute_type_id": "target_qg_nodes",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": [
+                "n00"
+              ],
+              "value_type_id": null,
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "source_qg_nodes",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": [],
+              "value_type_id": null,
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "num_target_nodes",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": 1,
+              "value_type_id": null,
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "biolink:xref",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": [
+                "UMLS:C0357155"
+              ],
+              "value_type_id": null,
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "biolink:synonym",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": [
+                "UMLS:C0357155"
+              ],
+              "value_type_id": null,
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "num_source_nodes",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": null,
+              "value": 0,
+              "value_type_id": null,
+              "value_url": null
+            },
+            {
+              "attribute_source": null,
+              "attribute_type_id": "biolink:has_count",
+              "attributes": null,
+              "description": null,
+              "original_attribute_name": "omnicorp_article_count",
+              "value": 0,
+              "value_type_id": "EDAM:data_0006",
+              "value_url": null
+            }
+          ],
+          "categories": [
+            "biolink:Drug"
+          ],
+          "name": "UMLS:C0357155"
+        }
+      }
+    },
+    "query_graph": {
+      "edges": {
+        "e00": {
+          "constraints": [],
+          "object": "n00",
+          "predicates": [
+            "biolink:treats"
+          ],
+          "subject": "n01"
+        }
+      },
+      "nodes": {
+        "n00": {
+          "categories": [
+            "biolink:DiseaseOrPhenotypicFeature"
+          ],
+          "constraints": [],
+          "ids": [
+            "MONDO:0018493"
+          ],
+          "is_set": false
+        },
+        "n01": {
+          "categories": [
+            "biolink:Drug"
+          ],
+          "constraints": [],
+          "ids": null,
+          "is_set": false
+        }
+      }
+    },
+    "results": [
+      {
+        "edge_bindings": {
+          "e00": [
+            {
+              "attributes": [
+                {
+                  "attribute_source": null,
+                  "attribute_type_id": "biolink:has_numeric_value",
+                  "attributes": null,
+                  "description": null,
+                  "original_attribute_name": "weight",
+                  "value": 0.4999999999999998,
+                  "value_type_id": "EDAM:data_1669",
+                  "value_url": null
+                }
+              ],
+              "id": "5a29d465532e"
+            }
+          ]
+        },
+        "node_bindings": {
+          "n00": [
+            {
+              "id": "MONDO:0018493"
+            }
+          ],
+          "n01": [
+            {
+              "id": "UMLS:C0357155"
+            }
+          ]
+        },
+        "score": 0.5
+      }
+    ]
+  },
+  "pid": "c825e94b6df8",
+  "status": "Success",
+  "validation_result": {
+    "message": "",
+    "n_edges": 1,
+    "n_nodes": 2,
+    "provenance_summary": {
+      "n_sources": 4,
+      "predicate_counts": {
+        "biolink:treats": 1
+      },
+      "provenance_counts": {
+        "biolink:treats --> biolink:aggregator_knowledge_source = ['infores:biothings-explorer']": [
+          "biolink:treats",
+          "biolink:aggregator_knowledge_source",
+          [
+            "infores:biothings-explorer"
+          ],
+          1
+        ],
+        "biolink:treats --> biolink:aggregator_knowledge_source = ['infores:biothings-semmeddb']": [
+          "biolink:treats",
+          "biolink:aggregator_knowledge_source",
+          [
+            "infores:biothings-semmeddb"
+          ],
+          1
+        ],
+        "biolink:treats --> biolink:aggregator_knowledge_source = infores:aragorn": [
+          "biolink:treats",
+          "biolink:aggregator_knowledge_source",
+          "infores:aragorn",
+          1
+        ],
+        "biolink:treats --> biolink:primary_knowledge_source = ['infores:semmeddb']": [
+          "biolink:treats",
+          "biolink:primary_knowledge_source",
+          [
+            "infores:semmeddb"
+          ],
+          1
+        ]
+      }
+    },
+    "size": "14 kB",
+    "status": "PASS",
+    "version": "1.2.0"
+  }
+}

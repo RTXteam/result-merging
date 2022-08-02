@@ -1,0 +1,350 @@
+{
+  "description": "Success. Returning 2 results...",
+  "message": {
+    "knowledge_graph": {
+      "edges": {
+        "5378424": {
+          "attributes": [
+            {
+              "attribute_source": "infores:spoke",
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "original_attribute_name": "source",
+              "value": "infores:drugcentral",
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_source": "infores:spoke",
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": "infores:spoke",
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_source": "infores:improving-agent",
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": "infores:improving-agent",
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_source": "infores:drugcentral",
+              "attribute_type_id": "biolink:provided_by",
+              "original_attribute_name": "act_sources",
+              "value": [
+                "WOMBAT-PK",
+                "CHEMBL"
+              ]
+            }
+          ],
+          "object": "MONDO:0018493",
+          "predicate": "biolink:treats",
+          "subject": "PUBCHEM.COMPOUND:6914273"
+        },
+        "5383390": {
+          "attributes": [
+            {
+              "attribute_source": "infores:spoke",
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "original_attribute_name": "source",
+              "value": "infores:drugcentral",
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_source": "infores:spoke",
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": "infores:spoke",
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_source": "infores:improving-agent",
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": "infores:improving-agent",
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_source": "infores:drugcentral",
+              "attribute_type_id": "biolink:provided_by",
+              "original_attribute_name": "act_sources",
+              "value": [
+                "WOMBAT-PK",
+                "CHEMBL"
+              ]
+            }
+          ],
+          "object": "MONDO:0018493",
+          "predicate": "biolink:treats",
+          "subject": "PUBCHEM.COMPOUND:6604100"
+        }
+      },
+      "nodes": {
+        "MONDO:0018493": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:full_name",
+              "original_attribute_name": "name",
+              "value": "malignant hyperthermia"
+            },
+            {
+              "attribute_type_id": "biolink:id",
+              "original_attribute_name": "identifier",
+              "value": "DOID:8545"
+            },
+            {
+              "attribute_type_id": "biolink:source",
+              "original_attribute_name": "source",
+              "value": "Disease Ontology"
+            },
+            {
+              "attribute_type_id": "biolink:mesh_terms",
+              "original_attribute_name": "mesh_list",
+              "value": [
+                "D008305"
+              ]
+            }
+          ],
+          "categories": [
+            "biolink:Disease"
+          ],
+          "name": "malignant hyperthermia"
+        },
+        "PUBCHEM.COMPOUND:6604100": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:id",
+              "original_attribute_name": "standardized_smiles",
+              "value": "O=C1CN(N=Cc2ccc(-c3ccc([N+](=O)[O-])cc3)o2)C(=O)N1"
+            },
+            {
+              "attribute_type_id": "biolink:id",
+              "original_attribute_name": "identifier",
+              "value": "CHEMBL928"
+            },
+            {
+              "attribute_type_id": "biolink:id",
+              "original_attribute_name": "inchikey",
+              "value": "KSRLIXGNPXAZHD-HAZZGOGXSA-M"
+            },
+            {
+              "attribute_type_id": "biolink:id",
+              "original_attribute_name": "inchi",
+              "value": "InChI=1S/C14H10N4O5.Na/c19-13-8-17(14(20)16-13)15-7-11-5-6-12(23-11)9-1-3-10(4-2-9)18(21)22;/h1-7H,8H2,(H,16,19,20);/q;+1/p-1/b15-7+;"
+            },
+            {
+              "attribute_type_id": "biolink:id",
+              "original_attribute_name": "inchikey_prefix",
+              "value": "KSRLIXGNPXAZHD"
+            },
+            {
+              "attribute_type_id": "biolink:highest_FDA_approval_status",
+              "original_attribute_name": "max_phase",
+              "value": "regular approval"
+            },
+            {
+              "attribute_type_id": "biolink:source",
+              "original_attribute_name": "source",
+              "value": "ChEMBL"
+            },
+            {
+              "attribute_type_id": "biolink:id",
+              "original_attribute_name": "canonical_smiles",
+              "value": "O=C1CN(/N=C/c2ccc(-c3ccc([N+](=O)[O-])cc3)o2)C(=O)[N-]1.[Na+]"
+            },
+            {
+              "attribute_type_id": "biolink:id",
+              "original_attribute_name": "chembl_id",
+              "value": "CHEMBL928"
+            },
+            {
+              "attribute_type_id": "biolink:full_name",
+              "original_attribute_name": "pref_name",
+              "value": "DANTROLENE SODIUM"
+            }
+          ],
+          "categories": [
+            "biolink:ChemicalEntity"
+          ],
+          "name": "DANTROLENE SODIUM"
+        },
+        "PUBCHEM.COMPOUND:6914273": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:id",
+              "original_attribute_name": "identifier",
+              "value": "DB01219"
+            },
+            {
+              "attribute_type_id": "biolink:id",
+              "original_attribute_name": "inchikey",
+              "value": "OZOMQRBLCMDCEG-VIZOYTHASA-N"
+            },
+            {
+              "attribute_type_id": "biolink:id",
+              "original_attribute_name": "inchi",
+              "value": "InChI=1S/C14H10N4O5/c19-13-8-17(14(20)16-13)15-7-11-5-6-12(23-11)9-1-3-10(4-2-9)18(21)22/h1-7H,8H2,(H,16,19,20)/b15-7+"
+            },
+            {
+              "attribute_type_id": "biolink:id",
+              "original_attribute_name": "inchikey_prefix",
+              "value": "OZOMQRBLCMDCEG"
+            },
+            {
+              "attribute_type_id": "biolink:source",
+              "original_attribute_name": "source",
+              "value": "ChEMBL"
+            },
+            {
+              "attribute_type_id": "biolink:id",
+              "original_attribute_name": "canonical_smiles",
+              "value": "O=C1CN(/N=C/c2ccc(-c3ccc([N+](=O)[O-])cc3)o2)C(=O)N1"
+            },
+            {
+              "attribute_type_id": "biolink:id",
+              "original_attribute_name": "drugbank_id",
+              "value": "DB01219"
+            },
+            {
+              "attribute_type_id": "biolink:full_name",
+              "original_attribute_name": "pref_name",
+              "value": "DANTROLENE"
+            },
+            {
+              "attribute_type_id": "biolink:id",
+              "original_attribute_name": "standardized_smiles",
+              "value": "O=C1CN(N=Cc2ccc(-c3ccc([N+](=O)[O-])cc3)o2)C(=O)N1"
+            },
+            {
+              "attribute_type_id": "metatype:Boolean",
+              "original_attribute_name": "vestige",
+              "value": false
+            },
+            {
+              "attribute_type_id": "biolink:full_name",
+              "original_attribute_name": "name",
+              "value": "Dantrolene"
+            },
+            {
+              "attribute_type_id": "biolink:highest_FDA_approval_status",
+              "original_attribute_name": "max_phase",
+              "value": "regular approval"
+            },
+            {
+              "attribute_type_id": "biolink:id",
+              "original_attribute_name": "chembl_id",
+              "value": "CHEMBL1201288"
+            }
+          ],
+          "categories": [
+            "biolink:ChemicalEntity"
+          ],
+          "name": "DANTROLENE"
+        }
+      }
+    },
+    "query_graph": {
+      "edges": {
+        "e00": {
+          "object": "n00",
+          "predicates": [
+            "biolink:treats"
+          ],
+          "subject": "n01"
+        }
+      },
+      "nodes": {
+        "n00": {
+          "categories": [
+            "biolink:DiseaseOrPhenotypicFeature"
+          ],
+          "constraints": [],
+          "ids": [
+            "MONDO:0018493"
+          ]
+        },
+        "n01": {
+          "categories": [
+            "biolink:Drug"
+          ],
+          "constraints": []
+        }
+      }
+    },
+    "results": [
+      {
+        "edge_bindings": {
+          "e00": [
+            {
+              "id": "5383390"
+            }
+          ]
+        },
+        "node_bindings": {
+          "n00": [
+            {
+              "id": "MONDO:0018493"
+            }
+          ],
+          "n01": [
+            {
+              "id": "PUBCHEM.COMPOUND:6604100"
+            }
+          ]
+        },
+        "score": 0.41720208628248656
+      },
+      {
+        "edge_bindings": {
+          "e00": [
+            {
+              "id": "5378424"
+            }
+          ]
+        },
+        "node_bindings": {
+          "n00": [
+            {
+              "id": "MONDO:0018493"
+            }
+          ],
+          "n01": [
+            {
+              "id": "PUBCHEM.COMPOUND:6914273"
+            }
+          ]
+        },
+        "score": 0.3813479747805104
+      }
+    ]
+  },
+  "validation_result": {
+    "message": "",
+    "n_edges": 2,
+    "n_nodes": 3,
+    "provenance_summary": {
+      "n_sources": 3,
+      "predicate_counts": {
+        "biolink:treats": 2
+      },
+      "provenance_counts": {
+        "biolink:treats --> biolink:aggregator_knowledge_source = infores:drugcentral": [
+          "biolink:treats",
+          "biolink:aggregator_knowledge_source",
+          "infores:drugcentral",
+          2
+        ],
+        "biolink:treats --> biolink:aggregator_knowledge_source = infores:improving-agent": [
+          "biolink:treats",
+          "biolink:aggregator_knowledge_source",
+          "infores:improving-agent",
+          2
+        ],
+        "biolink:treats --> biolink:aggregator_knowledge_source = infores:spoke": [
+          "biolink:treats",
+          "biolink:aggregator_knowledge_source",
+          "infores:spoke",
+          2
+        ]
+      }
+    },
+    "size": "12 kB",
+    "status": "PASS",
+    "version": "1.2.0"
+  }
+}

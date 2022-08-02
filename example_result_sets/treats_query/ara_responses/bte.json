@@ -1,0 +1,403 @@
+{
+  "logs": [
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "job status available at: http://api.bte.ncats.io/v1/check_query_status/sAL4gjMsSE",
+      "timestamp": "2022-05-27T17:36:48.005Z"
+    },
+    {
+      "code": null,
+      "level": "WARNING",
+      "message": "The following APIs were unavailable at the time of execution: Service Provider TRAPI",
+      "timestamp": "2022-05-27T17:36:46.437Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "Node n00 with id [MONDO:0018493] and category [biolink:DiseaseOrPhenotypicFeature] augmented with category [biolink:Disease] inferred from id.",
+      "timestamp": "2022-05-27T17:36:46.818Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "BTE identified 2 qNodes from your query graph",
+      "timestamp": "2022-05-27T17:36:46.818Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "BTE identified 1 qEdges from your query graph",
+      "timestamp": "2022-05-27T17:36:46.819Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "Executing e00 (reversed): n01 <-- n00",
+      "timestamp": "2022-05-27T17:36:46.892Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "REDIS cache is  enabled.",
+      "timestamp": "2022-05-27T17:36:47.157Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "BTE is trying to find metaKG edges (smartAPI registry, x-bte annotation) connecting from Disease,PhenotypicFeature,BehavioralFeature,ClinicalFinding,DiseaseOrPhenotypicFeature to Drug with predicate approved_for_treatment_by,treated_by",
+      "timestamp": "2022-05-27T17:36:47.160Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "BTE found 1 metaKG edges corresponding to e00. These metaKG edges comes from 1 unique APIs. They are BioThings SEMMEDDB API",
+      "timestamp": "2022-05-27T17:36:47.240Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "BTE found 1 metaKG for this batch.",
+      "timestamp": "2022-05-27T17:36:47.240Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "call-apis: Resolving ID feature is turned on",
+      "timestamp": "2022-05-27T17:36:47.240Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "call-apis: Number of API Edges received is 1",
+      "timestamp": "2022-05-27T17:36:47.240Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "call-apis: Successful POST https://biothings.ncats.io/semmeddb (1 ID): Disease > treated_by > Drug (obtained 1 record, took 193ms)",
+      "timestamp": "2022-05-27T17:36:47.434Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "call-apis: Total number of records returned for this query is 1",
+      "timestamp": "2022-05-27T17:36:47.435Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "call-apis: qEdge queries complete in 194ms",
+      "timestamp": "2022-05-27T17:36:47.990Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "e00 execution: 1 queries (1 success/0 fail) and (0) cached qEdges return (1) records",
+      "timestamp": "2022-05-27T17:36:47.995Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "Edge manager is managing 1 qEdges.",
+      "timestamp": "2022-05-27T17:36:46.892Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "Edge manager is sending next qEdge 'e00' for execution.",
+      "timestamp": "2022-05-27T17:36:46.892Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "'e00' kept (1) / dropped (0) records.",
+      "timestamp": "2022-05-27T17:36:47.996Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "'e00' keeps (1) records!",
+      "timestamp": "2022-05-27T17:36:47.996Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "Edge manager collected (1) records!",
+      "timestamp": "2022-05-27T17:36:47.996Z"
+    },
+    {
+      "code": null,
+      "level": "DEBUG",
+      "message": "Successfully scored 1 results, couldn't score 0 results.",
+      "timestamp": "2022-05-27T17:36:48.005Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "Execution Summary: (2) nodes / (1) edges / (1) results; (1/1) queries returned results from (1) unique APIs ",
+      "timestamp": "2022-05-27T17:36:48.005Z"
+    },
+    {
+      "code": null,
+      "level": "INFO",
+      "message": "APIs: BioThings SEMMEDDB API",
+      "timestamp": "2022-05-27T17:36:48.005Z"
+    }
+  ],
+  "message": {
+    "knowledge_graph": {
+      "edges": {
+        "38fea1ca3f89ae57affc28cbc76861cf": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-semmeddb"
+              ],
+              "value_type_id": "biolink:InformationResource"
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:7282692"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:original_object",
+              "value": "C0024591"
+            },
+            {
+              "attribute_type_id": "biolink:original_predicate",
+              "value": "TREATS"
+            },
+            {
+              "attribute_type_id": "biolink:original_subject",
+              "value": "C0357155"
+            },
+            {
+              "attribute_type_id": "original_object_name",
+              "value": "Malignant hyperpyrexia due to anesthesia"
+            },
+            {
+              "attribute_type_id": "original_subject_name",
+              "value": "Oral form sodium"
+            }
+          ],
+          "object": "MONDO:0018493",
+          "predicate": "biolink:treats",
+          "subject": "UMLS:C0357155"
+        }
+      },
+      "nodes": {
+        "MONDO:0018493": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "MONDO:0018493",
+                "DOID:8545",
+                "OMIM:PS145600",
+                "ORPHANET:423",
+                "UMLS:C0024591",
+                "MESH:D008305",
+                "MEDDRA:10016561",
+                "MEDDRA:10020742",
+                "MEDDRA:10020844",
+                "MEDDRA:10025599",
+                "MEDDRA:10025607",
+                "NCIT:C84869",
+                "SNOMEDCT:213026003",
+                "SNOMEDCT:405501007",
+                "ICD10:T88.3",
+                "ICD9:995.86",
+                "HP:0002047"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "malignant hyperthermia of anesthesia",
+                "malignant hyperthermia",
+                "Malignant hyperpyrexia due to anesthesia",
+                "Malignant Hyperthermia",
+                "Malignant Hyperthermia Syndrome",
+                "Malignant hyperthermia"
+              ]
+            },
+            {
+              "attribute_type_id": "num_source_nodes",
+              "value": 1
+            },
+            {
+              "attribute_type_id": "num_target_nodes",
+              "value": 0
+            },
+            {
+              "attribute_type_id": "source_qg_nodes",
+              "value": [
+                "n01"
+              ]
+            },
+            {
+              "attribute_type_id": "target_qg_nodes",
+              "value": []
+            }
+          ],
+          "categories": [
+            "biolink:Disease"
+          ],
+          "name": "malignant hyperthermia of anesthesia"
+        },
+        "UMLS:C0357155": {
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "UMLS:C0357155"
+              ]
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "UMLS:C0357155"
+              ]
+            },
+            {
+              "attribute_type_id": "num_source_nodes",
+              "value": 0
+            },
+            {
+              "attribute_type_id": "num_target_nodes",
+              "value": 1
+            },
+            {
+              "attribute_type_id": "source_qg_nodes",
+              "value": []
+            },
+            {
+              "attribute_type_id": "target_qg_nodes",
+              "value": [
+                "n00"
+              ]
+            }
+          ],
+          "categories": [
+            "biolink:Drug"
+          ],
+          "name": "UMLS:C0357155"
+        }
+      }
+    },
+    "query_graph": {
+      "edges": {
+        "e00": {
+          "object": "n00",
+          "predicates": [
+            "biolink:treats"
+          ],
+          "subject": "n01"
+        }
+      },
+      "nodes": {
+        "n00": {
+          "categories": [
+            "biolink:DiseaseOrPhenotypicFeature",
+            "biolink:Disease"
+          ],
+          "ids": [
+            "MONDO:0018493"
+          ]
+        },
+        "n01": {
+          "categories": [
+            "biolink:Drug"
+          ]
+        }
+      }
+    },
+    "results": [
+      {
+        "edge_bindings": {
+          "e00": [
+            {
+              "id": "38fea1ca3f89ae57affc28cbc76861cf"
+            }
+          ]
+        },
+        "node_bindings": {
+          "n00": [
+            {
+              "id": "MONDO:0018493"
+            }
+          ],
+          "n01": [
+            {
+              "id": "UMLS:C0357155"
+            }
+          ]
+        },
+        "score": 1.5797447831307978
+      }
+    ]
+  },
+  "validation_result": {
+    "message": "",
+    "n_edges": 1,
+    "n_nodes": 2,
+    "provenance_summary": {
+      "n_sources": 3,
+      "predicate_counts": {
+        "biolink:treats": 1
+      },
+      "provenance_counts": {
+        "biolink:treats --> biolink:aggregator_knowledge_source = ['infores:biothings-explorer']": [
+          "biolink:treats",
+          "biolink:aggregator_knowledge_source",
+          [
+            "infores:biothings-explorer"
+          ],
+          1
+        ],
+        "biolink:treats --> biolink:aggregator_knowledge_source = ['infores:biothings-semmeddb']": [
+          "biolink:treats",
+          "biolink:aggregator_knowledge_source",
+          [
+            "infores:biothings-semmeddb"
+          ],
+          1
+        ],
+        "biolink:treats --> biolink:primary_knowledge_source = ['infores:semmeddb']": [
+          "biolink:treats",
+          "biolink:primary_knowledge_source",
+          [
+            "infores:semmeddb"
+          ],
+          1
+        ]
+      }
+    },
+    "size": "12 kB",
+    "status": "PASS",
+    "version": "1.2.0"
+  },
+  "workflow": [
+    {
+      "id": "lookup"
+    }
+  ]
+}
