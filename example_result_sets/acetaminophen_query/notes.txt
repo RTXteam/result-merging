@@ -1,4 +1,4 @@
-This query looks for drugs proteins that interacts with Acetaminophen.
+This query looks for proteins that interact with Acetaminophen.
 
 Responses were downloaded from:
 https://arax.ncats.io/?r=8a1d8bf5-f5cc-4017-bd68-11fd832a988d
