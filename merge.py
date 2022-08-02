@@ -23,27 +23,27 @@ def merge_responses(query_dir_name: str):
                                if file_name.endswith(".json")]
     for ara_file_name in ara_response_file_names:
         ara = ara_file_name.replace(".json", "")
-        print(f"Starting to process {ara} result set...")
+        print(f"  Starting to process {ara} result set...")
         with open(f"{query_dir_path}/ara_responses/{ara}.json") as response_file:
             response = json.load(response_file)
         results = response["message"]["results"]
         kg = response["message"]["knowledge_graph"]
-        print(f"  {ara} response contains {len(results)} results, "
+        print(f"    {ara} response contains {len(results)} results, "
               f"{len(kg['nodes'])} KG nodes, {len(kg['edges'])} KG edges")
         # Organize results by their hash keys
         for result in results:
             qnode_keys_fulfilled_in_result = set(result["node_bindings"])
             if not required_qnode_keys.issubset(qnode_keys_fulfilled_in_result):
-                print(f"  WARNING: Found a result that doesn't fulfill all required qnode keys! Skipping...")
+                print(f"    WARNING: Found a result that doesn't fulfill all required qnode keys! Skipping...")
             else:
                 merge_curies = []
                 for qnode_key in required_qnode_keys_sorted:
                     nodes_fulfilling_this_qnode = {binding["id"] for binding in result["node_bindings"][qnode_key]}
                     # There should only be one node fulfilling this qnode since is_set=False
                     if len(nodes_fulfilling_this_qnode) > 1:
-                        print(f"  WARNING: Result has more than one node fulfilling {qnode_key}, "
+                        print(f"    WARNING: Result has more than one node fulfilling {qnode_key}, "
                               f"which has is_set=False: {nodes_fulfilling_this_qnode}")
-                        # NOTE: With TRAPI 1.3, multiple nodes WILL be able to fulfill an is_set=False node within
+                        # Note: With TRAPI 1.3, multiple nodes WILL be able to fulfill an is_set=False node within
                         # a single result IF they all have the same parent ID mapping ('query_id'); in that case
                         # the merge curie is the 'query_id' (not implemented since TRAPI 1.3 is still in dev)
                     merge_curie = list(nodes_fulfilling_this_qnode)[0]
@@ -63,21 +63,21 @@ def merge_responses(query_dir_name: str):
 
     # Then go through and merge all results with equivalent hash keys; we want the UNION of nodes
     merged_results = []
-    print(f"Merging result sets from all ARAs...")
+    print(f"  Merging result sets from all ARAs...")
     for hash_key, results in results_by_hash_key.items():
         merged_result = {"node_bindings": defaultdict(list), "edge_bindings": defaultdict(list)}
         for result in results:
             for qnode_key, node_bindings in result["node_bindings"].items():
                 for node_binding in node_bindings:
                     merged_result["node_bindings"][qnode_key].append(node_binding)
-                    # NOTE: Merging of node binding 'attributes' is not handled here..
+                    # Note: Node bindings can have 'attributes', which perhaps should be merged here? Ignoring for now..
             for qedge_key, edge_bindings in result["edge_bindings"].items():
                 for edge_binding in edge_bindings:
                     # We choose to retain ALL edges (could sub in different edge merging strategy here)
                     merged_result["edge_bindings"][qedge_key].append(edge_binding)
-            # NOTE: Optionally might have some way of also merging result score?
+            # Note: Optionally might have some way of also merging result score?
         merged_results.append(merged_result)
-    print(f"Done merging results for {query_dir_name}! There are {len(merged_results)} results after merging. "
+    print(f"Done merging responses for {query_dir_name}! There are {len(merged_results)} results after merging. "
           f"Merged KG contains {len(merged_kg['nodes'])} nodes and {len(merged_kg['edges'])} edges.")
 
     # Get rid of duplicate node bindings
@@ -90,7 +90,6 @@ def merge_responses(query_dir_name: str):
                 if node_id not in bound_curies:
                     deduplicated_node_bindings.append(node_binding)
                     bound_curies.add(node_id)
-                # NOTE: Node bindings can have 'attributes', which perhaps should be merged here? Ignoring for now..
 
     # Save the merged TRAPI response
     merged_response = {"message": {"results": merged_results,
