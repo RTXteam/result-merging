@@ -1,2 +1,3 @@
 # result-merging
-Merge TRAPI Responses
+
+Proof-of-concept for a TRAPI result-merging algorithm.
